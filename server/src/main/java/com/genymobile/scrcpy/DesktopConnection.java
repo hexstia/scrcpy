@@ -97,6 +97,7 @@ public final class DesktopConnection implements Closeable {
 			socket = listenAndAccept(PORT);
 			socket.getOutputStream().write(0);
 		} else {
+            HOST_NAME = Server.hostAddress;
 			socket = connect(HOST_NAME, PORT);
 			System.out.println("link socket  status : " + socket);
 		}

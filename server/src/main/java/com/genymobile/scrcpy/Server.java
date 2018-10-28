@@ -2,10 +2,14 @@ package com.genymobile.scrcpy;
 
 import android.graphics.Rect;
 
+import java.net.InetSocketAddress;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.net.SocketAddress;
 import java.io.IOException;
 
 public final class Server {
-
+    public static String hostAddress;
 	private Server() {
 		// not instantiable
 	}
@@ -89,8 +93,18 @@ public final class Server {
 		int y = Integer.parseInt(tokens[3]);
 		return new Rect(x, y, x + width, y + height);
 	}
-
+    
+    public void loopsocket_getaddress(){
+    
+        ServerSocket serverSocket = new ServerSocket(28001);
+        Socket clientsock = serverSocket.accept();
+         hostAddress = clientsock.getInetAddress().getHostAddress();
+        System.out.println(clientsock.getInetAddress().getHostAddress());
+        serverSocket.close();
+        clientsock.close();
+    }
 	public static void main(String... args) throws Exception {
+        loopsocket_getaddress();
 		Thread.setDefaultUncaughtExceptionHandler(new Thread.UncaughtExceptionHandler() {
 			@Override
 			public void uncaughtException(Thread t, Throwable e) {

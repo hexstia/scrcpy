@@ -1,0 +1,850 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACTION_DOWN	input_manager.c	/^static const int ACTION_DOWN = 1;$/;"	v	file:
+ACTION_INSTALL_APK	file_handler.h	/^    ACTION_INSTALL_APK,$/;"	e	enum:__anon7
+ACTION_PUSH_FILE	file_handler.h	/^    ACTION_PUSH_FILE,$/;"	e	enum:__anon7
+ACTION_UP	input_manager.c	/^static const int ACTION_UP = 1 << 1;$/;"	v	file:
+AINPUT_EVENT_TYPE_KEY	android/input.h	/^    AINPUT_EVENT_TYPE_KEY = 1,$/;"	e	enum:android_input_event_type
+AINPUT_EVENT_TYPE_MOTION	android/input.h	/^    AINPUT_EVENT_TYPE_MOTION = 2$/;"	e	enum:android_input_event_type
+AINPUT_KEYBOARD_TYPE_ALPHABETIC	android/input.h	/^    AINPUT_KEYBOARD_TYPE_ALPHABETIC = 2,$/;"	e	enum:android_keyboard_type
+AINPUT_KEYBOARD_TYPE_NONE	android/input.h	/^    AINPUT_KEYBOARD_TYPE_NONE = 0,$/;"	e	enum:android_keyboard_type
+AINPUT_KEYBOARD_TYPE_NON_ALPHABETIC	android/input.h	/^    AINPUT_KEYBOARD_TYPE_NON_ALPHABETIC = 1,$/;"	e	enum:android_keyboard_type
+AINPUT_MOTION_RANGE_ORIENTATION	android/input.h	/^    AINPUT_MOTION_RANGE_ORIENTATION = AMOTION_EVENT_AXIS_ORIENTATION,$/;"	e	enum:android_motion_range
+AINPUT_MOTION_RANGE_PRESSURE	android/input.h	/^    AINPUT_MOTION_RANGE_PRESSURE = AMOTION_EVENT_AXIS_PRESSURE,$/;"	e	enum:android_motion_range
+AINPUT_MOTION_RANGE_SIZE	android/input.h	/^    AINPUT_MOTION_RANGE_SIZE = AMOTION_EVENT_AXIS_SIZE,$/;"	e	enum:android_motion_range
+AINPUT_MOTION_RANGE_TOOL_MAJOR	android/input.h	/^    AINPUT_MOTION_RANGE_TOOL_MAJOR = AMOTION_EVENT_AXIS_TOOL_MAJOR,$/;"	e	enum:android_motion_range
+AINPUT_MOTION_RANGE_TOOL_MINOR	android/input.h	/^    AINPUT_MOTION_RANGE_TOOL_MINOR = AMOTION_EVENT_AXIS_TOOL_MINOR,$/;"	e	enum:android_motion_range
+AINPUT_MOTION_RANGE_TOUCH_MAJOR	android/input.h	/^    AINPUT_MOTION_RANGE_TOUCH_MAJOR = AMOTION_EVENT_AXIS_TOUCH_MAJOR,$/;"	e	enum:android_motion_range
+AINPUT_MOTION_RANGE_TOUCH_MINOR	android/input.h	/^    AINPUT_MOTION_RANGE_TOUCH_MINOR = AMOTION_EVENT_AXIS_TOUCH_MINOR,$/;"	e	enum:android_motion_range
+AINPUT_MOTION_RANGE_X	android/input.h	/^    AINPUT_MOTION_RANGE_X = AMOTION_EVENT_AXIS_X,$/;"	e	enum:android_motion_range
+AINPUT_MOTION_RANGE_Y	android/input.h	/^    AINPUT_MOTION_RANGE_Y = AMOTION_EVENT_AXIS_Y,$/;"	e	enum:android_motion_range
+AINPUT_SOURCE_BLUETOOTH_STYLUS	android/input.h	/^    AINPUT_SOURCE_BLUETOOTH_STYLUS = 0x00008000 | AINPUT_SOURCE_STYLUS,$/;"	e	enum:android_input_source
+AINPUT_SOURCE_CLASS_BUTTON	android/input.h	/^    AINPUT_SOURCE_CLASS_BUTTON = 0x00000001,$/;"	e	enum:android_input_source_class
+AINPUT_SOURCE_CLASS_JOYSTICK	android/input.h	/^    AINPUT_SOURCE_CLASS_JOYSTICK = 0x00000010,$/;"	e	enum:android_input_source_class
+AINPUT_SOURCE_CLASS_MASK	android/input.h	/^    AINPUT_SOURCE_CLASS_MASK = 0x000000ff,$/;"	e	enum:android_input_source_class
+AINPUT_SOURCE_CLASS_NAVIGATION	android/input.h	/^    AINPUT_SOURCE_CLASS_NAVIGATION = 0x00000004,$/;"	e	enum:android_input_source_class
+AINPUT_SOURCE_CLASS_NONE	android/input.h	/^    AINPUT_SOURCE_CLASS_NONE = 0x00000000,$/;"	e	enum:android_input_source_class
+AINPUT_SOURCE_CLASS_POINTER	android/input.h	/^    AINPUT_SOURCE_CLASS_POINTER = 0x00000002,$/;"	e	enum:android_input_source_class
+AINPUT_SOURCE_CLASS_POSITION	android/input.h	/^    AINPUT_SOURCE_CLASS_POSITION = 0x00000008,$/;"	e	enum:android_input_source_class
+AINPUT_SOURCE_DPAD	android/input.h	/^    AINPUT_SOURCE_DPAD = 0x00000200 | AINPUT_SOURCE_CLASS_BUTTON,$/;"	e	enum:android_input_source
+AINPUT_SOURCE_GAMEPAD	android/input.h	/^    AINPUT_SOURCE_GAMEPAD = 0x00000400 | AINPUT_SOURCE_CLASS_BUTTON,$/;"	e	enum:android_input_source
+AINPUT_SOURCE_JOYSTICK	android/input.h	/^    AINPUT_SOURCE_JOYSTICK = 0x01000000 | AINPUT_SOURCE_CLASS_JOYSTICK,$/;"	e	enum:android_input_source
+AINPUT_SOURCE_KEYBOARD	android/input.h	/^    AINPUT_SOURCE_KEYBOARD = 0x00000100 | AINPUT_SOURCE_CLASS_BUTTON,$/;"	e	enum:android_input_source
+AINPUT_SOURCE_MOUSE	android/input.h	/^    AINPUT_SOURCE_MOUSE = 0x00002000 | AINPUT_SOURCE_CLASS_POINTER,$/;"	e	enum:android_input_source
+AINPUT_SOURCE_MOUSE_RELATIVE	android/input.h	/^    AINPUT_SOURCE_MOUSE_RELATIVE = 0x00020000 | AINPUT_SOURCE_CLASS_NAVIGATION,$/;"	e	enum:android_input_source
+AINPUT_SOURCE_ROTARY_ENCODER	android/input.h	/^    AINPUT_SOURCE_ROTARY_ENCODER = 0x00400000 | AINPUT_SOURCE_CLASS_NONE,$/;"	e	enum:android_input_source
+AINPUT_SOURCE_STYLUS	android/input.h	/^    AINPUT_SOURCE_STYLUS = 0x00004000 | AINPUT_SOURCE_CLASS_POINTER,$/;"	e	enum:android_input_source
+AINPUT_SOURCE_TOUCHPAD	android/input.h	/^    AINPUT_SOURCE_TOUCHPAD = 0x00100000 | AINPUT_SOURCE_CLASS_POSITION,$/;"	e	enum:android_input_source
+AINPUT_SOURCE_TOUCHSCREEN	android/input.h	/^    AINPUT_SOURCE_TOUCHSCREEN = 0x00001000 | AINPUT_SOURCE_CLASS_POINTER,$/;"	e	enum:android_input_source
+AINPUT_SOURCE_TOUCH_NAVIGATION	android/input.h	/^    AINPUT_SOURCE_TOUCH_NAVIGATION = 0x00200000 | AINPUT_SOURCE_CLASS_NONE,$/;"	e	enum:android_input_source
+AINPUT_SOURCE_TRACKBALL	android/input.h	/^    AINPUT_SOURCE_TRACKBALL = 0x00010000 | AINPUT_SOURCE_CLASS_NAVIGATION,$/;"	e	enum:android_input_source
+AINPUT_SOURCE_UNKNOWN	android/input.h	/^    AINPUT_SOURCE_UNKNOWN = 0x00000000,$/;"	e	enum:android_input_source
+AKEYCODE_0	android/keycodes.h	/^    AKEYCODE_0               = 7,$/;"	e	enum:android_keycode
+AKEYCODE_1	android/keycodes.h	/^    AKEYCODE_1               = 8,$/;"	e	enum:android_keycode
+AKEYCODE_11	android/keycodes.h	/^    AKEYCODE_11              = 227,$/;"	e	enum:android_keycode
+AKEYCODE_12	android/keycodes.h	/^    AKEYCODE_12              = 228,$/;"	e	enum:android_keycode
+AKEYCODE_2	android/keycodes.h	/^    AKEYCODE_2               = 9,$/;"	e	enum:android_keycode
+AKEYCODE_3	android/keycodes.h	/^    AKEYCODE_3               = 10,$/;"	e	enum:android_keycode
+AKEYCODE_3D_MODE	android/keycodes.h	/^    AKEYCODE_3D_MODE         = 206,$/;"	e	enum:android_keycode
+AKEYCODE_4	android/keycodes.h	/^    AKEYCODE_4               = 11,$/;"	e	enum:android_keycode
+AKEYCODE_5	android/keycodes.h	/^    AKEYCODE_5               = 12,$/;"	e	enum:android_keycode
+AKEYCODE_6	android/keycodes.h	/^    AKEYCODE_6               = 13,$/;"	e	enum:android_keycode
+AKEYCODE_7	android/keycodes.h	/^    AKEYCODE_7               = 14,$/;"	e	enum:android_keycode
+AKEYCODE_8	android/keycodes.h	/^    AKEYCODE_8               = 15,$/;"	e	enum:android_keycode
+AKEYCODE_9	android/keycodes.h	/^    AKEYCODE_9               = 16,$/;"	e	enum:android_keycode
+AKEYCODE_A	android/keycodes.h	/^    AKEYCODE_A               = 29,$/;"	e	enum:android_keycode
+AKEYCODE_ALL_APPS	android/keycodes.h	/^    AKEYCODE_ALL_APPS = 284$/;"	e	enum:android_keycode
+AKEYCODE_ALT_LEFT	android/keycodes.h	/^    AKEYCODE_ALT_LEFT        = 57,$/;"	e	enum:android_keycode
+AKEYCODE_ALT_RIGHT	android/keycodes.h	/^    AKEYCODE_ALT_RIGHT       = 58,$/;"	e	enum:android_keycode
+AKEYCODE_APOSTROPHE	android/keycodes.h	/^    AKEYCODE_APOSTROPHE      = 75,$/;"	e	enum:android_keycode
+AKEYCODE_APP_SWITCH	android/keycodes.h	/^    AKEYCODE_APP_SWITCH      = 187,$/;"	e	enum:android_keycode
+AKEYCODE_ASSIST	android/keycodes.h	/^    AKEYCODE_ASSIST          = 219,$/;"	e	enum:android_keycode
+AKEYCODE_AT	android/keycodes.h	/^    AKEYCODE_AT              = 77,$/;"	e	enum:android_keycode
+AKEYCODE_AVR_INPUT	android/keycodes.h	/^    AKEYCODE_AVR_INPUT       = 182,$/;"	e	enum:android_keycode
+AKEYCODE_AVR_POWER	android/keycodes.h	/^    AKEYCODE_AVR_POWER       = 181,$/;"	e	enum:android_keycode
+AKEYCODE_B	android/keycodes.h	/^    AKEYCODE_B               = 30,$/;"	e	enum:android_keycode
+AKEYCODE_BACK	android/keycodes.h	/^    AKEYCODE_BACK            = 4,$/;"	e	enum:android_keycode
+AKEYCODE_BACKSLASH	android/keycodes.h	/^    AKEYCODE_BACKSLASH       = 73,$/;"	e	enum:android_keycode
+AKEYCODE_BOOKMARK	android/keycodes.h	/^    AKEYCODE_BOOKMARK        = 174,$/;"	e	enum:android_keycode
+AKEYCODE_BREAK	android/keycodes.h	/^    AKEYCODE_BREAK           = 121,$/;"	e	enum:android_keycode
+AKEYCODE_BRIGHTNESS_DOWN	android/keycodes.h	/^    AKEYCODE_BRIGHTNESS_DOWN = 220,$/;"	e	enum:android_keycode
+AKEYCODE_BRIGHTNESS_UP	android/keycodes.h	/^    AKEYCODE_BRIGHTNESS_UP   = 221,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_1	android/keycodes.h	/^    AKEYCODE_BUTTON_1        = 188,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_10	android/keycodes.h	/^    AKEYCODE_BUTTON_10       = 197,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_11	android/keycodes.h	/^    AKEYCODE_BUTTON_11       = 198,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_12	android/keycodes.h	/^    AKEYCODE_BUTTON_12       = 199,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_13	android/keycodes.h	/^    AKEYCODE_BUTTON_13       = 200,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_14	android/keycodes.h	/^    AKEYCODE_BUTTON_14       = 201,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_15	android/keycodes.h	/^    AKEYCODE_BUTTON_15       = 202,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_16	android/keycodes.h	/^    AKEYCODE_BUTTON_16       = 203,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_2	android/keycodes.h	/^    AKEYCODE_BUTTON_2        = 189,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_3	android/keycodes.h	/^    AKEYCODE_BUTTON_3        = 190,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_4	android/keycodes.h	/^    AKEYCODE_BUTTON_4        = 191,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_5	android/keycodes.h	/^    AKEYCODE_BUTTON_5        = 192,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_6	android/keycodes.h	/^    AKEYCODE_BUTTON_6        = 193,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_7	android/keycodes.h	/^    AKEYCODE_BUTTON_7        = 194,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_8	android/keycodes.h	/^    AKEYCODE_BUTTON_8        = 195,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_9	android/keycodes.h	/^    AKEYCODE_BUTTON_9        = 196,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_A	android/keycodes.h	/^    AKEYCODE_BUTTON_A        = 96,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_B	android/keycodes.h	/^    AKEYCODE_BUTTON_B        = 97,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_C	android/keycodes.h	/^    AKEYCODE_BUTTON_C        = 98,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_L1	android/keycodes.h	/^    AKEYCODE_BUTTON_L1       = 102,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_L2	android/keycodes.h	/^    AKEYCODE_BUTTON_L2       = 104,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_MODE	android/keycodes.h	/^    AKEYCODE_BUTTON_MODE     = 110,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_R1	android/keycodes.h	/^    AKEYCODE_BUTTON_R1       = 103,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_R2	android/keycodes.h	/^    AKEYCODE_BUTTON_R2       = 105,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_SELECT	android/keycodes.h	/^    AKEYCODE_BUTTON_SELECT   = 109,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_START	android/keycodes.h	/^    AKEYCODE_BUTTON_START    = 108,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_THUMBL	android/keycodes.h	/^    AKEYCODE_BUTTON_THUMBL   = 106,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_THUMBR	android/keycodes.h	/^    AKEYCODE_BUTTON_THUMBR   = 107,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_X	android/keycodes.h	/^    AKEYCODE_BUTTON_X        = 99,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_Y	android/keycodes.h	/^    AKEYCODE_BUTTON_Y        = 100,$/;"	e	enum:android_keycode
+AKEYCODE_BUTTON_Z	android/keycodes.h	/^    AKEYCODE_BUTTON_Z        = 101,$/;"	e	enum:android_keycode
+AKEYCODE_C	android/keycodes.h	/^    AKEYCODE_C               = 31,$/;"	e	enum:android_keycode
+AKEYCODE_CALCULATOR	android/keycodes.h	/^    AKEYCODE_CALCULATOR      = 210,$/;"	e	enum:android_keycode
+AKEYCODE_CALENDAR	android/keycodes.h	/^    AKEYCODE_CALENDAR        = 208,$/;"	e	enum:android_keycode
+AKEYCODE_CALL	android/keycodes.h	/^    AKEYCODE_CALL            = 5,$/;"	e	enum:android_keycode
+AKEYCODE_CAMERA	android/keycodes.h	/^    AKEYCODE_CAMERA          = 27,$/;"	e	enum:android_keycode
+AKEYCODE_CAPS_LOCK	android/keycodes.h	/^    AKEYCODE_CAPS_LOCK       = 115,$/;"	e	enum:android_keycode
+AKEYCODE_CAPTIONS	android/keycodes.h	/^    AKEYCODE_CAPTIONS        = 175,$/;"	e	enum:android_keycode
+AKEYCODE_CHANNEL_DOWN	android/keycodes.h	/^    AKEYCODE_CHANNEL_DOWN    = 167,$/;"	e	enum:android_keycode
+AKEYCODE_CHANNEL_UP	android/keycodes.h	/^    AKEYCODE_CHANNEL_UP      = 166,$/;"	e	enum:android_keycode
+AKEYCODE_CLEAR	android/keycodes.h	/^    AKEYCODE_CLEAR           = 28,$/;"	e	enum:android_keycode
+AKEYCODE_COMMA	android/keycodes.h	/^    AKEYCODE_COMMA           = 55,$/;"	e	enum:android_keycode
+AKEYCODE_CONTACTS	android/keycodes.h	/^    AKEYCODE_CONTACTS        = 207,$/;"	e	enum:android_keycode
+AKEYCODE_COPY	android/keycodes.h	/^    AKEYCODE_COPY = 278,$/;"	e	enum:android_keycode
+AKEYCODE_CTRL_LEFT	android/keycodes.h	/^    AKEYCODE_CTRL_LEFT       = 113,$/;"	e	enum:android_keycode
+AKEYCODE_CTRL_RIGHT	android/keycodes.h	/^    AKEYCODE_CTRL_RIGHT      = 114,$/;"	e	enum:android_keycode
+AKEYCODE_CUT	android/keycodes.h	/^    AKEYCODE_CUT = 277,$/;"	e	enum:android_keycode
+AKEYCODE_D	android/keycodes.h	/^    AKEYCODE_D               = 32,$/;"	e	enum:android_keycode
+AKEYCODE_DEL	android/keycodes.h	/^    AKEYCODE_DEL             = 67,$/;"	e	enum:android_keycode
+AKEYCODE_DPAD_CENTER	android/keycodes.h	/^    AKEYCODE_DPAD_CENTER     = 23,$/;"	e	enum:android_keycode
+AKEYCODE_DPAD_DOWN	android/keycodes.h	/^    AKEYCODE_DPAD_DOWN       = 20,$/;"	e	enum:android_keycode
+AKEYCODE_DPAD_DOWN_LEFT	android/keycodes.h	/^    AKEYCODE_DPAD_DOWN_LEFT  = 269,$/;"	e	enum:android_keycode
+AKEYCODE_DPAD_DOWN_RIGHT	android/keycodes.h	/^    AKEYCODE_DPAD_DOWN_RIGHT = 271,$/;"	e	enum:android_keycode
+AKEYCODE_DPAD_LEFT	android/keycodes.h	/^    AKEYCODE_DPAD_LEFT       = 21,$/;"	e	enum:android_keycode
+AKEYCODE_DPAD_RIGHT	android/keycodes.h	/^    AKEYCODE_DPAD_RIGHT      = 22,$/;"	e	enum:android_keycode
+AKEYCODE_DPAD_UP	android/keycodes.h	/^    AKEYCODE_DPAD_UP         = 19,$/;"	e	enum:android_keycode
+AKEYCODE_DPAD_UP_LEFT	android/keycodes.h	/^    AKEYCODE_DPAD_UP_LEFT    = 268,$/;"	e	enum:android_keycode
+AKEYCODE_DPAD_UP_RIGHT	android/keycodes.h	/^    AKEYCODE_DPAD_UP_RIGHT   = 270,$/;"	e	enum:android_keycode
+AKEYCODE_DVR	android/keycodes.h	/^    AKEYCODE_DVR             = 173,$/;"	e	enum:android_keycode
+AKEYCODE_E	android/keycodes.h	/^    AKEYCODE_E               = 33,$/;"	e	enum:android_keycode
+AKEYCODE_EISU	android/keycodes.h	/^    AKEYCODE_EISU            = 212,$/;"	e	enum:android_keycode
+AKEYCODE_ENDCALL	android/keycodes.h	/^    AKEYCODE_ENDCALL         = 6,$/;"	e	enum:android_keycode
+AKEYCODE_ENTER	android/keycodes.h	/^    AKEYCODE_ENTER           = 66,$/;"	e	enum:android_keycode
+AKEYCODE_ENVELOPE	android/keycodes.h	/^    AKEYCODE_ENVELOPE        = 65,$/;"	e	enum:android_keycode
+AKEYCODE_EQUALS	android/keycodes.h	/^    AKEYCODE_EQUALS          = 70,$/;"	e	enum:android_keycode
+AKEYCODE_ESCAPE	android/keycodes.h	/^    AKEYCODE_ESCAPE          = 111,$/;"	e	enum:android_keycode
+AKEYCODE_EXPLORER	android/keycodes.h	/^    AKEYCODE_EXPLORER        = 64,$/;"	e	enum:android_keycode
+AKEYCODE_F	android/keycodes.h	/^    AKEYCODE_F               = 34,$/;"	e	enum:android_keycode
+AKEYCODE_F1	android/keycodes.h	/^    AKEYCODE_F1              = 131,$/;"	e	enum:android_keycode
+AKEYCODE_F10	android/keycodes.h	/^    AKEYCODE_F10             = 140,$/;"	e	enum:android_keycode
+AKEYCODE_F11	android/keycodes.h	/^    AKEYCODE_F11             = 141,$/;"	e	enum:android_keycode
+AKEYCODE_F12	android/keycodes.h	/^    AKEYCODE_F12             = 142,$/;"	e	enum:android_keycode
+AKEYCODE_F2	android/keycodes.h	/^    AKEYCODE_F2              = 132,$/;"	e	enum:android_keycode
+AKEYCODE_F3	android/keycodes.h	/^    AKEYCODE_F3              = 133,$/;"	e	enum:android_keycode
+AKEYCODE_F4	android/keycodes.h	/^    AKEYCODE_F4              = 134,$/;"	e	enum:android_keycode
+AKEYCODE_F5	android/keycodes.h	/^    AKEYCODE_F5              = 135,$/;"	e	enum:android_keycode
+AKEYCODE_F6	android/keycodes.h	/^    AKEYCODE_F6              = 136,$/;"	e	enum:android_keycode
+AKEYCODE_F7	android/keycodes.h	/^    AKEYCODE_F7              = 137,$/;"	e	enum:android_keycode
+AKEYCODE_F8	android/keycodes.h	/^    AKEYCODE_F8              = 138,$/;"	e	enum:android_keycode
+AKEYCODE_F9	android/keycodes.h	/^    AKEYCODE_F9              = 139,$/;"	e	enum:android_keycode
+AKEYCODE_FOCUS	android/keycodes.h	/^    AKEYCODE_FOCUS           = 80,$/;"	e	enum:android_keycode
+AKEYCODE_FORWARD	android/keycodes.h	/^    AKEYCODE_FORWARD         = 125,$/;"	e	enum:android_keycode
+AKEYCODE_FORWARD_DEL	android/keycodes.h	/^    AKEYCODE_FORWARD_DEL     = 112,$/;"	e	enum:android_keycode
+AKEYCODE_FUNCTION	android/keycodes.h	/^    AKEYCODE_FUNCTION        = 119,$/;"	e	enum:android_keycode
+AKEYCODE_G	android/keycodes.h	/^    AKEYCODE_G               = 35,$/;"	e	enum:android_keycode
+AKEYCODE_GRAVE	android/keycodes.h	/^    AKEYCODE_GRAVE           = 68,$/;"	e	enum:android_keycode
+AKEYCODE_GUIDE	android/keycodes.h	/^    AKEYCODE_GUIDE           = 172,$/;"	e	enum:android_keycode
+AKEYCODE_H	android/keycodes.h	/^    AKEYCODE_H               = 36,$/;"	e	enum:android_keycode
+AKEYCODE_HEADSETHOOK	android/keycodes.h	/^    AKEYCODE_HEADSETHOOK     = 79,$/;"	e	enum:android_keycode
+AKEYCODE_HELP	android/keycodes.h	/^    AKEYCODE_HELP            = 259,$/;"	e	enum:android_keycode
+AKEYCODE_HENKAN	android/keycodes.h	/^    AKEYCODE_HENKAN          = 214,$/;"	e	enum:android_keycode
+AKEYCODE_HOME	android/keycodes.h	/^    AKEYCODE_HOME            = 3,$/;"	e	enum:android_keycode
+AKEYCODE_I	android/keycodes.h	/^    AKEYCODE_I               = 37,$/;"	e	enum:android_keycode
+AKEYCODE_INFO	android/keycodes.h	/^    AKEYCODE_INFO            = 165,$/;"	e	enum:android_keycode
+AKEYCODE_INSERT	android/keycodes.h	/^    AKEYCODE_INSERT          = 124,$/;"	e	enum:android_keycode
+AKEYCODE_J	android/keycodes.h	/^    AKEYCODE_J               = 38,$/;"	e	enum:android_keycode
+AKEYCODE_K	android/keycodes.h	/^    AKEYCODE_K               = 39,$/;"	e	enum:android_keycode
+AKEYCODE_KANA	android/keycodes.h	/^    AKEYCODE_KANA            = 218,$/;"	e	enum:android_keycode
+AKEYCODE_KATAKANA_HIRAGANA	android/keycodes.h	/^    AKEYCODE_KATAKANA_HIRAGANA = 215,$/;"	e	enum:android_keycode
+AKEYCODE_L	android/keycodes.h	/^    AKEYCODE_L               = 40,$/;"	e	enum:android_keycode
+AKEYCODE_LANGUAGE_SWITCH	android/keycodes.h	/^    AKEYCODE_LANGUAGE_SWITCH = 204,$/;"	e	enum:android_keycode
+AKEYCODE_LAST_CHANNEL	android/keycodes.h	/^    AKEYCODE_LAST_CHANNEL    = 229,$/;"	e	enum:android_keycode
+AKEYCODE_LEFT_BRACKET	android/keycodes.h	/^    AKEYCODE_LEFT_BRACKET    = 71,$/;"	e	enum:android_keycode
+AKEYCODE_M	android/keycodes.h	/^    AKEYCODE_M               = 41,$/;"	e	enum:android_keycode
+AKEYCODE_MANNER_MODE	android/keycodes.h	/^    AKEYCODE_MANNER_MODE     = 205,$/;"	e	enum:android_keycode
+AKEYCODE_MEDIA_AUDIO_TRACK	android/keycodes.h	/^    AKEYCODE_MEDIA_AUDIO_TRACK = 222,$/;"	e	enum:android_keycode
+AKEYCODE_MEDIA_CLOSE	android/keycodes.h	/^    AKEYCODE_MEDIA_CLOSE     = 128,$/;"	e	enum:android_keycode
+AKEYCODE_MEDIA_EJECT	android/keycodes.h	/^    AKEYCODE_MEDIA_EJECT     = 129,$/;"	e	enum:android_keycode
+AKEYCODE_MEDIA_FAST_FORWARD	android/keycodes.h	/^    AKEYCODE_MEDIA_FAST_FORWARD = 90,$/;"	e	enum:android_keycode
+AKEYCODE_MEDIA_NEXT	android/keycodes.h	/^    AKEYCODE_MEDIA_NEXT      = 87,$/;"	e	enum:android_keycode
+AKEYCODE_MEDIA_PAUSE	android/keycodes.h	/^    AKEYCODE_MEDIA_PAUSE     = 127,$/;"	e	enum:android_keycode
+AKEYCODE_MEDIA_PLAY	android/keycodes.h	/^    AKEYCODE_MEDIA_PLAY      = 126,$/;"	e	enum:android_keycode
+AKEYCODE_MEDIA_PLAY_PAUSE	android/keycodes.h	/^    AKEYCODE_MEDIA_PLAY_PAUSE= 85,$/;"	e	enum:android_keycode
+AKEYCODE_MEDIA_PREVIOUS	android/keycodes.h	/^    AKEYCODE_MEDIA_PREVIOUS  = 88,$/;"	e	enum:android_keycode
+AKEYCODE_MEDIA_RECORD	android/keycodes.h	/^    AKEYCODE_MEDIA_RECORD    = 130,$/;"	e	enum:android_keycode
+AKEYCODE_MEDIA_REWIND	android/keycodes.h	/^    AKEYCODE_MEDIA_REWIND    = 89,$/;"	e	enum:android_keycode
+AKEYCODE_MEDIA_SKIP_BACKWARD	android/keycodes.h	/^    AKEYCODE_MEDIA_SKIP_BACKWARD = 273,$/;"	e	enum:android_keycode
+AKEYCODE_MEDIA_SKIP_FORWARD	android/keycodes.h	/^    AKEYCODE_MEDIA_SKIP_FORWARD = 272,$/;"	e	enum:android_keycode
+AKEYCODE_MEDIA_STEP_BACKWARD	android/keycodes.h	/^    AKEYCODE_MEDIA_STEP_BACKWARD = 275,$/;"	e	enum:android_keycode
+AKEYCODE_MEDIA_STEP_FORWARD	android/keycodes.h	/^    AKEYCODE_MEDIA_STEP_FORWARD = 274,$/;"	e	enum:android_keycode
+AKEYCODE_MEDIA_STOP	android/keycodes.h	/^    AKEYCODE_MEDIA_STOP      = 86,$/;"	e	enum:android_keycode
+AKEYCODE_MEDIA_TOP_MENU	android/keycodes.h	/^    AKEYCODE_MEDIA_TOP_MENU  = 226,$/;"	e	enum:android_keycode
+AKEYCODE_MENU	android/keycodes.h	/^    AKEYCODE_MENU            = 82,$/;"	e	enum:android_keycode
+AKEYCODE_META_LEFT	android/keycodes.h	/^    AKEYCODE_META_LEFT       = 117,$/;"	e	enum:android_keycode
+AKEYCODE_META_RIGHT	android/keycodes.h	/^    AKEYCODE_META_RIGHT      = 118,$/;"	e	enum:android_keycode
+AKEYCODE_MINUS	android/keycodes.h	/^    AKEYCODE_MINUS           = 69,$/;"	e	enum:android_keycode
+AKEYCODE_MOVE_END	android/keycodes.h	/^    AKEYCODE_MOVE_END        = 123,$/;"	e	enum:android_keycode
+AKEYCODE_MOVE_HOME	android/keycodes.h	/^    AKEYCODE_MOVE_HOME       = 122,$/;"	e	enum:android_keycode
+AKEYCODE_MUHENKAN	android/keycodes.h	/^    AKEYCODE_MUHENKAN        = 213,$/;"	e	enum:android_keycode
+AKEYCODE_MUSIC	android/keycodes.h	/^    AKEYCODE_MUSIC           = 209,$/;"	e	enum:android_keycode
+AKEYCODE_MUTE	android/keycodes.h	/^    AKEYCODE_MUTE            = 91,$/;"	e	enum:android_keycode
+AKEYCODE_N	android/keycodes.h	/^    AKEYCODE_N               = 42,$/;"	e	enum:android_keycode
+AKEYCODE_NAVIGATE_IN	android/keycodes.h	/^    AKEYCODE_NAVIGATE_IN     = 262,$/;"	e	enum:android_keycode
+AKEYCODE_NAVIGATE_NEXT	android/keycodes.h	/^    AKEYCODE_NAVIGATE_NEXT   = 261,$/;"	e	enum:android_keycode
+AKEYCODE_NAVIGATE_OUT	android/keycodes.h	/^    AKEYCODE_NAVIGATE_OUT    = 263,$/;"	e	enum:android_keycode
+AKEYCODE_NAVIGATE_PREVIOUS	android/keycodes.h	/^    AKEYCODE_NAVIGATE_PREVIOUS = 260,$/;"	e	enum:android_keycode
+AKEYCODE_NOTIFICATION	android/keycodes.h	/^    AKEYCODE_NOTIFICATION    = 83,$/;"	e	enum:android_keycode
+AKEYCODE_NUM	android/keycodes.h	/^    AKEYCODE_NUM             = 78,$/;"	e	enum:android_keycode
+AKEYCODE_NUMPAD_0	android/keycodes.h	/^    AKEYCODE_NUMPAD_0        = 144,$/;"	e	enum:android_keycode
+AKEYCODE_NUMPAD_1	android/keycodes.h	/^    AKEYCODE_NUMPAD_1        = 145,$/;"	e	enum:android_keycode
+AKEYCODE_NUMPAD_2	android/keycodes.h	/^    AKEYCODE_NUMPAD_2        = 146,$/;"	e	enum:android_keycode
+AKEYCODE_NUMPAD_3	android/keycodes.h	/^    AKEYCODE_NUMPAD_3        = 147,$/;"	e	enum:android_keycode
+AKEYCODE_NUMPAD_4	android/keycodes.h	/^    AKEYCODE_NUMPAD_4        = 148,$/;"	e	enum:android_keycode
+AKEYCODE_NUMPAD_5	android/keycodes.h	/^    AKEYCODE_NUMPAD_5        = 149,$/;"	e	enum:android_keycode
+AKEYCODE_NUMPAD_6	android/keycodes.h	/^    AKEYCODE_NUMPAD_6        = 150,$/;"	e	enum:android_keycode
+AKEYCODE_NUMPAD_7	android/keycodes.h	/^    AKEYCODE_NUMPAD_7        = 151,$/;"	e	enum:android_keycode
+AKEYCODE_NUMPAD_8	android/keycodes.h	/^    AKEYCODE_NUMPAD_8        = 152,$/;"	e	enum:android_keycode
+AKEYCODE_NUMPAD_9	android/keycodes.h	/^    AKEYCODE_NUMPAD_9        = 153,$/;"	e	enum:android_keycode
+AKEYCODE_NUMPAD_ADD	android/keycodes.h	/^    AKEYCODE_NUMPAD_ADD      = 157,$/;"	e	enum:android_keycode
+AKEYCODE_NUMPAD_COMMA	android/keycodes.h	/^    AKEYCODE_NUMPAD_COMMA    = 159,$/;"	e	enum:android_keycode
+AKEYCODE_NUMPAD_DIVIDE	android/keycodes.h	/^    AKEYCODE_NUMPAD_DIVIDE   = 154,$/;"	e	enum:android_keycode
+AKEYCODE_NUMPAD_DOT	android/keycodes.h	/^    AKEYCODE_NUMPAD_DOT      = 158,$/;"	e	enum:android_keycode
+AKEYCODE_NUMPAD_ENTER	android/keycodes.h	/^    AKEYCODE_NUMPAD_ENTER    = 160,$/;"	e	enum:android_keycode
+AKEYCODE_NUMPAD_EQUALS	android/keycodes.h	/^    AKEYCODE_NUMPAD_EQUALS   = 161,$/;"	e	enum:android_keycode
+AKEYCODE_NUMPAD_LEFT_PAREN	android/keycodes.h	/^    AKEYCODE_NUMPAD_LEFT_PAREN = 162,$/;"	e	enum:android_keycode
+AKEYCODE_NUMPAD_MULTIPLY	android/keycodes.h	/^    AKEYCODE_NUMPAD_MULTIPLY = 155,$/;"	e	enum:android_keycode
+AKEYCODE_NUMPAD_RIGHT_PAREN	android/keycodes.h	/^    AKEYCODE_NUMPAD_RIGHT_PAREN = 163,$/;"	e	enum:android_keycode
+AKEYCODE_NUMPAD_SUBTRACT	android/keycodes.h	/^    AKEYCODE_NUMPAD_SUBTRACT = 156,$/;"	e	enum:android_keycode
+AKEYCODE_NUM_LOCK	android/keycodes.h	/^    AKEYCODE_NUM_LOCK        = 143,$/;"	e	enum:android_keycode
+AKEYCODE_O	android/keycodes.h	/^    AKEYCODE_O               = 43,$/;"	e	enum:android_keycode
+AKEYCODE_P	android/keycodes.h	/^    AKEYCODE_P               = 44,$/;"	e	enum:android_keycode
+AKEYCODE_PAGE_DOWN	android/keycodes.h	/^    AKEYCODE_PAGE_DOWN       = 93,$/;"	e	enum:android_keycode
+AKEYCODE_PAGE_UP	android/keycodes.h	/^    AKEYCODE_PAGE_UP         = 92,$/;"	e	enum:android_keycode
+AKEYCODE_PAIRING	android/keycodes.h	/^    AKEYCODE_PAIRING         = 225,$/;"	e	enum:android_keycode
+AKEYCODE_PASTE	android/keycodes.h	/^    AKEYCODE_PASTE = 279,$/;"	e	enum:android_keycode
+AKEYCODE_PERIOD	android/keycodes.h	/^    AKEYCODE_PERIOD          = 56,$/;"	e	enum:android_keycode
+AKEYCODE_PICTSYMBOLS	android/keycodes.h	/^    AKEYCODE_PICTSYMBOLS     = 94,$/;"	e	enum:android_keycode
+AKEYCODE_PLUS	android/keycodes.h	/^    AKEYCODE_PLUS            = 81,$/;"	e	enum:android_keycode
+AKEYCODE_POUND	android/keycodes.h	/^    AKEYCODE_POUND           = 18,$/;"	e	enum:android_keycode
+AKEYCODE_POWER	android/keycodes.h	/^    AKEYCODE_POWER           = 26,$/;"	e	enum:android_keycode
+AKEYCODE_PROG_BLUE	android/keycodes.h	/^    AKEYCODE_PROG_BLUE       = 186,$/;"	e	enum:android_keycode
+AKEYCODE_PROG_GREEN	android/keycodes.h	/^    AKEYCODE_PROG_GREEN      = 184,$/;"	e	enum:android_keycode
+AKEYCODE_PROG_RED	android/keycodes.h	/^    AKEYCODE_PROG_RED        = 183,$/;"	e	enum:android_keycode
+AKEYCODE_PROG_YELLOW	android/keycodes.h	/^    AKEYCODE_PROG_YELLOW     = 185,$/;"	e	enum:android_keycode
+AKEYCODE_Q	android/keycodes.h	/^    AKEYCODE_Q               = 45,$/;"	e	enum:android_keycode
+AKEYCODE_R	android/keycodes.h	/^    AKEYCODE_R               = 46,$/;"	e	enum:android_keycode
+AKEYCODE_RIGHT_BRACKET	android/keycodes.h	/^    AKEYCODE_RIGHT_BRACKET   = 72,$/;"	e	enum:android_keycode
+AKEYCODE_RO	android/keycodes.h	/^    AKEYCODE_RO              = 217,$/;"	e	enum:android_keycode
+AKEYCODE_S	android/keycodes.h	/^    AKEYCODE_S               = 47,$/;"	e	enum:android_keycode
+AKEYCODE_SCROLL_LOCK	android/keycodes.h	/^    AKEYCODE_SCROLL_LOCK     = 116,$/;"	e	enum:android_keycode
+AKEYCODE_SEARCH	android/keycodes.h	/^    AKEYCODE_SEARCH          = 84,$/;"	e	enum:android_keycode
+AKEYCODE_SEMICOLON	android/keycodes.h	/^    AKEYCODE_SEMICOLON       = 74,$/;"	e	enum:android_keycode
+AKEYCODE_SETTINGS	android/keycodes.h	/^    AKEYCODE_SETTINGS        = 176,$/;"	e	enum:android_keycode
+AKEYCODE_SHIFT_LEFT	android/keycodes.h	/^    AKEYCODE_SHIFT_LEFT      = 59,$/;"	e	enum:android_keycode
+AKEYCODE_SHIFT_RIGHT	android/keycodes.h	/^    AKEYCODE_SHIFT_RIGHT     = 60,$/;"	e	enum:android_keycode
+AKEYCODE_SLASH	android/keycodes.h	/^    AKEYCODE_SLASH           = 76,$/;"	e	enum:android_keycode
+AKEYCODE_SLEEP	android/keycodes.h	/^    AKEYCODE_SLEEP           = 223,$/;"	e	enum:android_keycode
+AKEYCODE_SOFT_LEFT	android/keycodes.h	/^    AKEYCODE_SOFT_LEFT       = 1,$/;"	e	enum:android_keycode
+AKEYCODE_SOFT_RIGHT	android/keycodes.h	/^    AKEYCODE_SOFT_RIGHT      = 2,$/;"	e	enum:android_keycode
+AKEYCODE_SOFT_SLEEP	android/keycodes.h	/^    AKEYCODE_SOFT_SLEEP = 276,$/;"	e	enum:android_keycode
+AKEYCODE_SPACE	android/keycodes.h	/^    AKEYCODE_SPACE           = 62,$/;"	e	enum:android_keycode
+AKEYCODE_STAR	android/keycodes.h	/^    AKEYCODE_STAR            = 17,$/;"	e	enum:android_keycode
+AKEYCODE_STB_INPUT	android/keycodes.h	/^    AKEYCODE_STB_INPUT       = 180,$/;"	e	enum:android_keycode
+AKEYCODE_STB_POWER	android/keycodes.h	/^    AKEYCODE_STB_POWER       = 179,$/;"	e	enum:android_keycode
+AKEYCODE_STEM_1	android/keycodes.h	/^    AKEYCODE_STEM_1 = 265,$/;"	e	enum:android_keycode
+AKEYCODE_STEM_2	android/keycodes.h	/^    AKEYCODE_STEM_2 = 266,$/;"	e	enum:android_keycode
+AKEYCODE_STEM_3	android/keycodes.h	/^    AKEYCODE_STEM_3 = 267,$/;"	e	enum:android_keycode
+AKEYCODE_STEM_PRIMARY	android/keycodes.h	/^    AKEYCODE_STEM_PRIMARY = 264,$/;"	e	enum:android_keycode
+AKEYCODE_SWITCH_CHARSET	android/keycodes.h	/^    AKEYCODE_SWITCH_CHARSET  = 95,$/;"	e	enum:android_keycode
+AKEYCODE_SYM	android/keycodes.h	/^    AKEYCODE_SYM             = 63,$/;"	e	enum:android_keycode
+AKEYCODE_SYSRQ	android/keycodes.h	/^    AKEYCODE_SYSRQ           = 120,$/;"	e	enum:android_keycode
+AKEYCODE_SYSTEM_NAVIGATION_DOWN	android/keycodes.h	/^    AKEYCODE_SYSTEM_NAVIGATION_DOWN = 281,$/;"	e	enum:android_keycode
+AKEYCODE_SYSTEM_NAVIGATION_LEFT	android/keycodes.h	/^    AKEYCODE_SYSTEM_NAVIGATION_LEFT = 282,$/;"	e	enum:android_keycode
+AKEYCODE_SYSTEM_NAVIGATION_RIGHT	android/keycodes.h	/^    AKEYCODE_SYSTEM_NAVIGATION_RIGHT = 283,$/;"	e	enum:android_keycode
+AKEYCODE_SYSTEM_NAVIGATION_UP	android/keycodes.h	/^    AKEYCODE_SYSTEM_NAVIGATION_UP = 280,$/;"	e	enum:android_keycode
+AKEYCODE_T	android/keycodes.h	/^    AKEYCODE_T               = 48,$/;"	e	enum:android_keycode
+AKEYCODE_TAB	android/keycodes.h	/^    AKEYCODE_TAB             = 61,$/;"	e	enum:android_keycode
+AKEYCODE_TV	android/keycodes.h	/^    AKEYCODE_TV              = 170,$/;"	e	enum:android_keycode
+AKEYCODE_TV_ANTENNA_CABLE	android/keycodes.h	/^    AKEYCODE_TV_ANTENNA_CABLE = 242,$/;"	e	enum:android_keycode
+AKEYCODE_TV_AUDIO_DESCRIPTION	android/keycodes.h	/^    AKEYCODE_TV_AUDIO_DESCRIPTION = 252,$/;"	e	enum:android_keycode
+AKEYCODE_TV_AUDIO_DESCRIPTION_MIX_DOWN	android/keycodes.h	/^    AKEYCODE_TV_AUDIO_DESCRIPTION_MIX_DOWN = 254,$/;"	e	enum:android_keycode
+AKEYCODE_TV_AUDIO_DESCRIPTION_MIX_UP	android/keycodes.h	/^    AKEYCODE_TV_AUDIO_DESCRIPTION_MIX_UP = 253,$/;"	e	enum:android_keycode
+AKEYCODE_TV_CONTENTS_MENU	android/keycodes.h	/^    AKEYCODE_TV_CONTENTS_MENU = 256,$/;"	e	enum:android_keycode
+AKEYCODE_TV_DATA_SERVICE	android/keycodes.h	/^    AKEYCODE_TV_DATA_SERVICE = 230,$/;"	e	enum:android_keycode
+AKEYCODE_TV_INPUT	android/keycodes.h	/^    AKEYCODE_TV_INPUT        = 178,$/;"	e	enum:android_keycode
+AKEYCODE_TV_INPUT_COMPONENT_1	android/keycodes.h	/^    AKEYCODE_TV_INPUT_COMPONENT_1 = 249,$/;"	e	enum:android_keycode
+AKEYCODE_TV_INPUT_COMPONENT_2	android/keycodes.h	/^    AKEYCODE_TV_INPUT_COMPONENT_2 = 250,$/;"	e	enum:android_keycode
+AKEYCODE_TV_INPUT_COMPOSITE_1	android/keycodes.h	/^    AKEYCODE_TV_INPUT_COMPOSITE_1 = 247,$/;"	e	enum:android_keycode
+AKEYCODE_TV_INPUT_COMPOSITE_2	android/keycodes.h	/^    AKEYCODE_TV_INPUT_COMPOSITE_2 = 248,$/;"	e	enum:android_keycode
+AKEYCODE_TV_INPUT_HDMI_1	android/keycodes.h	/^    AKEYCODE_TV_INPUT_HDMI_1 = 243,$/;"	e	enum:android_keycode
+AKEYCODE_TV_INPUT_HDMI_2	android/keycodes.h	/^    AKEYCODE_TV_INPUT_HDMI_2 = 244,$/;"	e	enum:android_keycode
+AKEYCODE_TV_INPUT_HDMI_3	android/keycodes.h	/^    AKEYCODE_TV_INPUT_HDMI_3 = 245,$/;"	e	enum:android_keycode
+AKEYCODE_TV_INPUT_HDMI_4	android/keycodes.h	/^    AKEYCODE_TV_INPUT_HDMI_4 = 246,$/;"	e	enum:android_keycode
+AKEYCODE_TV_INPUT_VGA_1	android/keycodes.h	/^    AKEYCODE_TV_INPUT_VGA_1  = 251,$/;"	e	enum:android_keycode
+AKEYCODE_TV_MEDIA_CONTEXT_MENU	android/keycodes.h	/^    AKEYCODE_TV_MEDIA_CONTEXT_MENU = 257,$/;"	e	enum:android_keycode
+AKEYCODE_TV_NETWORK	android/keycodes.h	/^    AKEYCODE_TV_NETWORK      = 241,$/;"	e	enum:android_keycode
+AKEYCODE_TV_NUMBER_ENTRY	android/keycodes.h	/^    AKEYCODE_TV_NUMBER_ENTRY = 234,$/;"	e	enum:android_keycode
+AKEYCODE_TV_POWER	android/keycodes.h	/^    AKEYCODE_TV_POWER        = 177,$/;"	e	enum:android_keycode
+AKEYCODE_TV_RADIO_SERVICE	android/keycodes.h	/^    AKEYCODE_TV_RADIO_SERVICE = 232,$/;"	e	enum:android_keycode
+AKEYCODE_TV_SATELLITE	android/keycodes.h	/^    AKEYCODE_TV_SATELLITE    = 237,$/;"	e	enum:android_keycode
+AKEYCODE_TV_SATELLITE_BS	android/keycodes.h	/^    AKEYCODE_TV_SATELLITE_BS = 238,$/;"	e	enum:android_keycode
+AKEYCODE_TV_SATELLITE_CS	android/keycodes.h	/^    AKEYCODE_TV_SATELLITE_CS = 239,$/;"	e	enum:android_keycode
+AKEYCODE_TV_SATELLITE_SERVICE	android/keycodes.h	/^    AKEYCODE_TV_SATELLITE_SERVICE = 240,$/;"	e	enum:android_keycode
+AKEYCODE_TV_TELETEXT	android/keycodes.h	/^    AKEYCODE_TV_TELETEXT     = 233,$/;"	e	enum:android_keycode
+AKEYCODE_TV_TERRESTRIAL_ANALOG	android/keycodes.h	/^    AKEYCODE_TV_TERRESTRIAL_ANALOG = 235,$/;"	e	enum:android_keycode
+AKEYCODE_TV_TERRESTRIAL_DIGITAL	android/keycodes.h	/^    AKEYCODE_TV_TERRESTRIAL_DIGITAL = 236,$/;"	e	enum:android_keycode
+AKEYCODE_TV_TIMER_PROGRAMMING	android/keycodes.h	/^    AKEYCODE_TV_TIMER_PROGRAMMING = 258,$/;"	e	enum:android_keycode
+AKEYCODE_TV_ZOOM_MODE	android/keycodes.h	/^    AKEYCODE_TV_ZOOM_MODE    = 255,$/;"	e	enum:android_keycode
+AKEYCODE_U	android/keycodes.h	/^    AKEYCODE_U               = 49,$/;"	e	enum:android_keycode
+AKEYCODE_UNKNOWN	android/keycodes.h	/^    AKEYCODE_UNKNOWN         = 0,$/;"	e	enum:android_keycode
+AKEYCODE_V	android/keycodes.h	/^    AKEYCODE_V               = 50,$/;"	e	enum:android_keycode
+AKEYCODE_VOICE_ASSIST	android/keycodes.h	/^    AKEYCODE_VOICE_ASSIST    = 231,$/;"	e	enum:android_keycode
+AKEYCODE_VOLUME_DOWN	android/keycodes.h	/^    AKEYCODE_VOLUME_DOWN     = 25,$/;"	e	enum:android_keycode
+AKEYCODE_VOLUME_MUTE	android/keycodes.h	/^    AKEYCODE_VOLUME_MUTE     = 164,$/;"	e	enum:android_keycode
+AKEYCODE_VOLUME_UP	android/keycodes.h	/^    AKEYCODE_VOLUME_UP       = 24,$/;"	e	enum:android_keycode
+AKEYCODE_W	android/keycodes.h	/^    AKEYCODE_W               = 51,$/;"	e	enum:android_keycode
+AKEYCODE_WAKEUP	android/keycodes.h	/^    AKEYCODE_WAKEUP          = 224,$/;"	e	enum:android_keycode
+AKEYCODE_WINDOW	android/keycodes.h	/^    AKEYCODE_WINDOW          = 171,$/;"	e	enum:android_keycode
+AKEYCODE_X	android/keycodes.h	/^    AKEYCODE_X               = 52,$/;"	e	enum:android_keycode
+AKEYCODE_Y	android/keycodes.h	/^    AKEYCODE_Y               = 53,$/;"	e	enum:android_keycode
+AKEYCODE_YEN	android/keycodes.h	/^    AKEYCODE_YEN             = 216,$/;"	e	enum:android_keycode
+AKEYCODE_Z	android/keycodes.h	/^    AKEYCODE_Z               = 54,$/;"	e	enum:android_keycode
+AKEYCODE_ZENKAKU_HANKAKU	android/keycodes.h	/^    AKEYCODE_ZENKAKU_HANKAKU = 211,$/;"	e	enum:android_keycode
+AKEYCODE_ZOOM_IN	android/keycodes.h	/^    AKEYCODE_ZOOM_IN         = 168,$/;"	e	enum:android_keycode
+AKEYCODE_ZOOM_OUT	android/keycodes.h	/^    AKEYCODE_ZOOM_OUT        = 169,$/;"	e	enum:android_keycode
+AKEY_EVENT_ACTION_DOWN	android/input.h	/^    AKEY_EVENT_ACTION_DOWN = 0,$/;"	e	enum:android_keyevent_action
+AKEY_EVENT_ACTION_MULTIPLE	android/input.h	/^    AKEY_EVENT_ACTION_MULTIPLE = 2$/;"	e	enum:android_keyevent_action
+AKEY_EVENT_ACTION_UP	android/input.h	/^    AKEY_EVENT_ACTION_UP = 1,$/;"	e	enum:android_keyevent_action
+AKEY_EVENT_FLAG_CANCELED	android/input.h	/^    AKEY_EVENT_FLAG_CANCELED = 0x20,$/;"	e	enum:android_keyevent_flags
+AKEY_EVENT_FLAG_CANCELED_LONG_PRESS	android/input.h	/^    AKEY_EVENT_FLAG_CANCELED_LONG_PRESS = 0x100,$/;"	e	enum:android_keyevent_flags
+AKEY_EVENT_FLAG_EDITOR_ACTION	android/input.h	/^    AKEY_EVENT_FLAG_EDITOR_ACTION = 0x10,$/;"	e	enum:android_keyevent_flags
+AKEY_EVENT_FLAG_FALLBACK	android/input.h	/^    AKEY_EVENT_FLAG_FALLBACK = 0x400,$/;"	e	enum:android_keyevent_flags
+AKEY_EVENT_FLAG_FROM_SYSTEM	android/input.h	/^    AKEY_EVENT_FLAG_FROM_SYSTEM = 0x8,$/;"	e	enum:android_keyevent_flags
+AKEY_EVENT_FLAG_KEEP_TOUCH_MODE	android/input.h	/^    AKEY_EVENT_FLAG_KEEP_TOUCH_MODE = 0x4,$/;"	e	enum:android_keyevent_flags
+AKEY_EVENT_FLAG_LONG_PRESS	android/input.h	/^    AKEY_EVENT_FLAG_LONG_PRESS = 0x80,$/;"	e	enum:android_keyevent_flags
+AKEY_EVENT_FLAG_SOFT_KEYBOARD	android/input.h	/^    AKEY_EVENT_FLAG_SOFT_KEYBOARD = 0x2,$/;"	e	enum:android_keyevent_flags
+AKEY_EVENT_FLAG_TRACKING	android/input.h	/^    AKEY_EVENT_FLAG_TRACKING = 0x200,$/;"	e	enum:android_keyevent_flags
+AKEY_EVENT_FLAG_VIRTUAL_HARD_KEY	android/input.h	/^    AKEY_EVENT_FLAG_VIRTUAL_HARD_KEY = 0x40,$/;"	e	enum:android_keyevent_flags
+AKEY_EVENT_FLAG_WOKE_HERE	android/input.h	/^    AKEY_EVENT_FLAG_WOKE_HERE = 0x1,$/;"	e	enum:android_keyevent_flags
+AMETA_ALT_LEFT_ON	android/input.h	/^    AMETA_ALT_LEFT_ON = 0x10,$/;"	e	enum:android_metastate
+AMETA_ALT_ON	android/input.h	/^    AMETA_ALT_ON = 0x02,$/;"	e	enum:android_metastate
+AMETA_ALT_RIGHT_ON	android/input.h	/^    AMETA_ALT_RIGHT_ON = 0x20,$/;"	e	enum:android_metastate
+AMETA_CAPS_LOCK_ON	android/input.h	/^    AMETA_CAPS_LOCK_ON = 0x100000,$/;"	e	enum:android_metastate
+AMETA_CTRL_LEFT_ON	android/input.h	/^    AMETA_CTRL_LEFT_ON = 0x2000,$/;"	e	enum:android_metastate
+AMETA_CTRL_ON	android/input.h	/^    AMETA_CTRL_ON = 0x1000,$/;"	e	enum:android_metastate
+AMETA_CTRL_RIGHT_ON	android/input.h	/^    AMETA_CTRL_RIGHT_ON = 0x4000,$/;"	e	enum:android_metastate
+AMETA_FUNCTION_ON	android/input.h	/^    AMETA_FUNCTION_ON = 0x08,$/;"	e	enum:android_metastate
+AMETA_META_LEFT_ON	android/input.h	/^    AMETA_META_LEFT_ON = 0x20000,$/;"	e	enum:android_metastate
+AMETA_META_ON	android/input.h	/^    AMETA_META_ON = 0x10000,$/;"	e	enum:android_metastate
+AMETA_META_RIGHT_ON	android/input.h	/^    AMETA_META_RIGHT_ON = 0x40000,$/;"	e	enum:android_metastate
+AMETA_NONE	android/input.h	/^    AMETA_NONE = 0,$/;"	e	enum:android_metastate
+AMETA_NUM_LOCK_ON	android/input.h	/^    AMETA_NUM_LOCK_ON = 0x200000,$/;"	e	enum:android_metastate
+AMETA_SCROLL_LOCK_ON	android/input.h	/^    AMETA_SCROLL_LOCK_ON = 0x400000,$/;"	e	enum:android_metastate
+AMETA_SHIFT_LEFT_ON	android/input.h	/^    AMETA_SHIFT_LEFT_ON = 0x40,$/;"	e	enum:android_metastate
+AMETA_SHIFT_ON	android/input.h	/^    AMETA_SHIFT_ON = 0x01,$/;"	e	enum:android_metastate
+AMETA_SHIFT_RIGHT_ON	android/input.h	/^    AMETA_SHIFT_RIGHT_ON = 0x80,$/;"	e	enum:android_metastate
+AMETA_SYM_ON	android/input.h	/^    AMETA_SYM_ON = 0x04,$/;"	e	enum:android_metastate
+AMOTION_EVENT_ACTION_BUTTON_PRESS	android/input.h	/^    AMOTION_EVENT_ACTION_BUTTON_PRESS = 11,$/;"	e	enum:android_motionevent_action
+AMOTION_EVENT_ACTION_BUTTON_RELEASE	android/input.h	/^    AMOTION_EVENT_ACTION_BUTTON_RELEASE = 12,$/;"	e	enum:android_motionevent_action
+AMOTION_EVENT_ACTION_CANCEL	android/input.h	/^    AMOTION_EVENT_ACTION_CANCEL = 3,$/;"	e	enum:android_motionevent_action
+AMOTION_EVENT_ACTION_DOWN	android/input.h	/^    AMOTION_EVENT_ACTION_DOWN = 0,$/;"	e	enum:android_motionevent_action
+AMOTION_EVENT_ACTION_HOVER_ENTER	android/input.h	/^    AMOTION_EVENT_ACTION_HOVER_ENTER = 9,$/;"	e	enum:android_motionevent_action
+AMOTION_EVENT_ACTION_HOVER_EXIT	android/input.h	/^    AMOTION_EVENT_ACTION_HOVER_EXIT = 10,$/;"	e	enum:android_motionevent_action
+AMOTION_EVENT_ACTION_HOVER_MOVE	android/input.h	/^    AMOTION_EVENT_ACTION_HOVER_MOVE = 7,$/;"	e	enum:android_motionevent_action
+AMOTION_EVENT_ACTION_MASK	android/input.h	/^    AMOTION_EVENT_ACTION_MASK = 0xff,$/;"	e	enum:android_motionevent_action
+AMOTION_EVENT_ACTION_MOVE	android/input.h	/^    AMOTION_EVENT_ACTION_MOVE = 2,$/;"	e	enum:android_motionevent_action
+AMOTION_EVENT_ACTION_OUTSIDE	android/input.h	/^    AMOTION_EVENT_ACTION_OUTSIDE = 4,$/;"	e	enum:android_motionevent_action
+AMOTION_EVENT_ACTION_POINTER_DOWN	android/input.h	/^    AMOTION_EVENT_ACTION_POINTER_DOWN = 5,$/;"	e	enum:android_motionevent_action
+AMOTION_EVENT_ACTION_POINTER_INDEX_MASK	android/input.h	/^    AMOTION_EVENT_ACTION_POINTER_INDEX_MASK  = 0xff00,$/;"	e	enum:android_motionevent_action
+AMOTION_EVENT_ACTION_POINTER_INDEX_SHIFT	android/input.h	195;"	d
+AMOTION_EVENT_ACTION_POINTER_UP	android/input.h	/^    AMOTION_EVENT_ACTION_POINTER_UP = 6,$/;"	e	enum:android_motionevent_action
+AMOTION_EVENT_ACTION_SCROLL	android/input.h	/^    AMOTION_EVENT_ACTION_SCROLL = 8,$/;"	e	enum:android_motionevent_action
+AMOTION_EVENT_ACTION_UP	android/input.h	/^    AMOTION_EVENT_ACTION_UP = 1,$/;"	e	enum:android_motionevent_action
+AMOTION_EVENT_AXIS_BRAKE	android/input.h	/^    AMOTION_EVENT_AXIS_BRAKE = 23,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_DISTANCE	android/input.h	/^    AMOTION_EVENT_AXIS_DISTANCE = 24,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_GAS	android/input.h	/^    AMOTION_EVENT_AXIS_GAS = 22,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_GENERIC_1	android/input.h	/^    AMOTION_EVENT_AXIS_GENERIC_1 = 32,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_GENERIC_10	android/input.h	/^    AMOTION_EVENT_AXIS_GENERIC_10 = 41,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_GENERIC_11	android/input.h	/^    AMOTION_EVENT_AXIS_GENERIC_11 = 42,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_GENERIC_12	android/input.h	/^    AMOTION_EVENT_AXIS_GENERIC_12 = 43,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_GENERIC_13	android/input.h	/^    AMOTION_EVENT_AXIS_GENERIC_13 = 44,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_GENERIC_14	android/input.h	/^    AMOTION_EVENT_AXIS_GENERIC_14 = 45,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_GENERIC_15	android/input.h	/^    AMOTION_EVENT_AXIS_GENERIC_15 = 46,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_GENERIC_16	android/input.h	/^    AMOTION_EVENT_AXIS_GENERIC_16 = 47,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_GENERIC_2	android/input.h	/^    AMOTION_EVENT_AXIS_GENERIC_2 = 33,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_GENERIC_3	android/input.h	/^    AMOTION_EVENT_AXIS_GENERIC_3 = 34,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_GENERIC_4	android/input.h	/^    AMOTION_EVENT_AXIS_GENERIC_4 = 35,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_GENERIC_5	android/input.h	/^    AMOTION_EVENT_AXIS_GENERIC_5 = 36,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_GENERIC_6	android/input.h	/^    AMOTION_EVENT_AXIS_GENERIC_6 = 37,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_GENERIC_7	android/input.h	/^    AMOTION_EVENT_AXIS_GENERIC_7 = 38,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_GENERIC_8	android/input.h	/^    AMOTION_EVENT_AXIS_GENERIC_8 = 39,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_GENERIC_9	android/input.h	/^    AMOTION_EVENT_AXIS_GENERIC_9 = 40,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_HAT_X	android/input.h	/^    AMOTION_EVENT_AXIS_HAT_X = 15,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_HAT_Y	android/input.h	/^    AMOTION_EVENT_AXIS_HAT_Y = 16,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_HSCROLL	android/input.h	/^    AMOTION_EVENT_AXIS_HSCROLL = 10,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_LTRIGGER	android/input.h	/^    AMOTION_EVENT_AXIS_LTRIGGER = 17,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_ORIENTATION	android/input.h	/^    AMOTION_EVENT_AXIS_ORIENTATION = 8,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_PRESSURE	android/input.h	/^    AMOTION_EVENT_AXIS_PRESSURE = 2,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_RELATIVE_X	android/input.h	/^    AMOTION_EVENT_AXIS_RELATIVE_X = 27,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_RELATIVE_Y	android/input.h	/^    AMOTION_EVENT_AXIS_RELATIVE_Y = 28,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_RTRIGGER	android/input.h	/^    AMOTION_EVENT_AXIS_RTRIGGER = 18,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_RUDDER	android/input.h	/^    AMOTION_EVENT_AXIS_RUDDER = 20,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_RX	android/input.h	/^    AMOTION_EVENT_AXIS_RX = 12,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_RY	android/input.h	/^    AMOTION_EVENT_AXIS_RY = 13,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_RZ	android/input.h	/^    AMOTION_EVENT_AXIS_RZ = 14,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_SCROLL	android/input.h	/^    AMOTION_EVENT_AXIS_SCROLL = 26,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_SIZE	android/input.h	/^    AMOTION_EVENT_AXIS_SIZE = 3,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_THROTTLE	android/input.h	/^    AMOTION_EVENT_AXIS_THROTTLE = 19,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_TILT	android/input.h	/^    AMOTION_EVENT_AXIS_TILT = 25,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_TOOL_MAJOR	android/input.h	/^    AMOTION_EVENT_AXIS_TOOL_MAJOR = 6,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_TOOL_MINOR	android/input.h	/^    AMOTION_EVENT_AXIS_TOOL_MINOR = 7,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_TOUCH_MAJOR	android/input.h	/^    AMOTION_EVENT_AXIS_TOUCH_MAJOR = 4,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_TOUCH_MINOR	android/input.h	/^    AMOTION_EVENT_AXIS_TOUCH_MINOR = 5,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_VSCROLL	android/input.h	/^    AMOTION_EVENT_AXIS_VSCROLL = 9,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_WHEEL	android/input.h	/^    AMOTION_EVENT_AXIS_WHEEL = 21,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_X	android/input.h	/^    AMOTION_EVENT_AXIS_X = 0,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_Y	android/input.h	/^    AMOTION_EVENT_AXIS_Y = 1,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_AXIS_Z	android/input.h	/^    AMOTION_EVENT_AXIS_Z = 11,$/;"	e	enum:android_motionevent_axis
+AMOTION_EVENT_BUTTON_BACK	android/input.h	/^    AMOTION_EVENT_BUTTON_BACK = 1 << 3,$/;"	e	enum:android_motionevent_buttons
+AMOTION_EVENT_BUTTON_FORWARD	android/input.h	/^    AMOTION_EVENT_BUTTON_FORWARD = 1 << 4,$/;"	e	enum:android_motionevent_buttons
+AMOTION_EVENT_BUTTON_PRIMARY	android/input.h	/^    AMOTION_EVENT_BUTTON_PRIMARY = 1 << 0,$/;"	e	enum:android_motionevent_buttons
+AMOTION_EVENT_BUTTON_SECONDARY	android/input.h	/^    AMOTION_EVENT_BUTTON_SECONDARY = 1 << 1,$/;"	e	enum:android_motionevent_buttons
+AMOTION_EVENT_BUTTON_STYLUS_PRIMARY	android/input.h	/^    AMOTION_EVENT_BUTTON_STYLUS_PRIMARY = 1 << 5,$/;"	e	enum:android_motionevent_buttons
+AMOTION_EVENT_BUTTON_STYLUS_SECONDARY	android/input.h	/^    AMOTION_EVENT_BUTTON_STYLUS_SECONDARY = 1 << 6,$/;"	e	enum:android_motionevent_buttons
+AMOTION_EVENT_BUTTON_TERTIARY	android/input.h	/^    AMOTION_EVENT_BUTTON_TERTIARY = 1 << 2,$/;"	e	enum:android_motionevent_buttons
+AMOTION_EVENT_EDGE_FLAG_BOTTOM	android/input.h	/^    AMOTION_EVENT_EDGE_FLAG_BOTTOM = 0x02,$/;"	e	enum:android_motionevent_edge_touch_flags
+AMOTION_EVENT_EDGE_FLAG_LEFT	android/input.h	/^    AMOTION_EVENT_EDGE_FLAG_LEFT = 0x04,$/;"	e	enum:android_motionevent_edge_touch_flags
+AMOTION_EVENT_EDGE_FLAG_NONE	android/input.h	/^    AMOTION_EVENT_EDGE_FLAG_NONE = 0,$/;"	e	enum:android_motionevent_edge_touch_flags
+AMOTION_EVENT_EDGE_FLAG_RIGHT	android/input.h	/^    AMOTION_EVENT_EDGE_FLAG_RIGHT = 0x08$/;"	e	enum:android_motionevent_edge_touch_flags
+AMOTION_EVENT_EDGE_FLAG_TOP	android/input.h	/^    AMOTION_EVENT_EDGE_FLAG_TOP = 0x01,$/;"	e	enum:android_motionevent_edge_touch_flags
+AMOTION_EVENT_FLAG_WINDOW_IS_OBSCURED	android/input.h	/^    AMOTION_EVENT_FLAG_WINDOW_IS_OBSCURED = 0x1,$/;"	e	enum:android_motionevent_flags
+AMOTION_EVENT_TOOL_TYPE_ERASER	android/input.h	/^    AMOTION_EVENT_TOOL_TYPE_ERASER = 4,$/;"	e	enum:android_motionevent_tool_type
+AMOTION_EVENT_TOOL_TYPE_FINGER	android/input.h	/^    AMOTION_EVENT_TOOL_TYPE_FINGER = 1,$/;"	e	enum:android_motionevent_tool_type
+AMOTION_EVENT_TOOL_TYPE_MOUSE	android/input.h	/^    AMOTION_EVENT_TOOL_TYPE_MOUSE = 3,$/;"	e	enum:android_motionevent_tool_type
+AMOTION_EVENT_TOOL_TYPE_STYLUS	android/input.h	/^    AMOTION_EVENT_TOOL_TYPE_STYLUS = 2,$/;"	e	enum:android_motionevent_tool_type
+AMOTION_EVENT_TOOL_TYPE_UNKNOWN	android/input.h	/^    AMOTION_EVENT_TOOL_TYPE_UNKNOWN = 0,$/;"	e	enum:android_motionevent_tool_type
+ARRAY_LEN	common.h	6;"	d
+AVFrame	frames.h	/^typedef struct AVFrame AVFrame;$/;"	t	typeref:struct:AVFrame
+BUFSIZE	decoder.c	15;"	d	file:
+COMMAND_H	command.h	2;"	d
+COMMON_H	common.h	2;"	d
+CONTINUOUS_RESIZING_WORKAROUND	scrcpy.c	41;"	d	file:
+CONTROLEVENT_H	control_event.h	2;"	d
+CONTROL_EVENT_COMMAND_BACK_OR_SCREEN_ON	control_event.h	23;"	d
+CONTROL_EVENT_QUEUE_SIZE	control_event.h	11;"	d
+CONTROL_EVENT_TYPE_COMMAND	control_event.h	/^    CONTROL_EVENT_TYPE_COMMAND,$/;"	e	enum:control_event_type
+CONTROL_EVENT_TYPE_KEYCODE	control_event.h	/^    CONTROL_EVENT_TYPE_KEYCODE,$/;"	e	enum:control_event_type
+CONTROL_EVENT_TYPE_MOUSE	control_event.h	/^    CONTROL_EVENT_TYPE_MOUSE,$/;"	e	enum:control_event_type
+CONTROL_EVENT_TYPE_SCROLL	control_event.h	/^    CONTROL_EVENT_TYPE_SCROLL,$/;"	e	enum:control_event_type
+CONTROL_EVENT_TYPE_TEXT	control_event.h	/^    CONTROL_EVENT_TYPE_TEXT,$/;"	e	enum:control_event_type
+CONTROL_H	controller.h	2;"	d
+CONVERT_H	convert.h	2;"	d
+DECODER_H	decoder.h	2;"	d
+DEFAULT_SERVER_PATH	server.c	17;"	d	file:
+DEFAULT_SERVER_PATH	server.c	19;"	d	file:
+DEVICE_H	device.h	2;"	d
+DEVICE_NAME_FIELD_LENGTH	device.h	9;"	d
+DEVICE_SDCARD_PATH	device.h	10;"	d
+DEVICE_SERVER_PATH	server.c	22;"	d	file:
+DISPLAY_MARGINS	screen.c	11;"	d	file:
+EVENT_DECODER_STOPPED	events.h	3;"	d
+EVENT_NEW_FRAME	events.h	2;"	d
+EVENT_NEW_SESSION	events.h	1;"	d
+FAIL	convert.c	4;"	d	file:
+FILE_HANDLER_H	file_handler.h	2;"	d
+FPSCOUNTER_H	fps_counter.h	2;"	d
+FRAMES_H	frames.h	2;"	d
+GET_DISPLAY_BOUNDS	screen.c	72;"	d	file:
+INPUTMANAGER_H	input_manager.h	2;"	d
+INVALID_SOCKET	net.h	15;"	d
+IN_ADDR	net.c	/^  typedef struct in_addr IN_ADDR;$/;"	t	typeref:struct:in_addr	file:
+IPV4_LOCALHOST	server.c	100;"	d	file:
+LOCKUTIL_H	lock_util.h	2;"	d
+LOGC	log.h	10;"	d
+LOGD	log.h	6;"	d
+LOGE	log.h	9;"	d
+LOGI	log.h	7;"	d
+LOGW	log.h	8;"	d
+LOG_H	log.h	2;"	d
+MAP	convert.c	3;"	d	file:
+MAX	common.h	8;"	d
+MIN	common.h	7;"	d
+NET_H	net.h	2;"	d
+NO_EXIT_CODE	command.h	33;"	d
+PRIexitcode	command.h	10;"	d
+PRIexitcode	command.h	18;"	d
+PRIsizet	command.h	12;"	d
+PRIsizet	command.h	14;"	d
+PRIsizet	command.h	17;"	d
+PROCESS_ERROR_GENERIC	command.h	/^    PROCESS_ERROR_GENERIC,$/;"	e	enum:process_result
+PROCESS_ERROR_MISSING_BINARY	command.h	/^    PROCESS_ERROR_MISSING_BINARY,$/;"	e	enum:process_result
+PROCESS_NONE	command.h	24;"	d
+PROCESS_NONE	command.h	29;"	d
+PROCESS_SUCCESS	command.h	/^    PROCESS_SUCCESS,$/;"	e	enum:process_result
+REQUEST_QUEUE_SIZE	file_handler.h	9;"	d
+SCRCPY_H	scrcpy.h	2;"	d
+SCREEN_H	screen.h	2;"	d
+SCREEN_INITIALIZER	screen.h	21;"	d
+SDL_cond	lock_util.h	/^typedef struct SDL_cond SDL_cond;$/;"	t	typeref:struct:SDL_cond
+SDL_mutex	lock_util.h	/^typedef struct SDL_mutex SDL_mutex;$/;"	t	typeref:struct:SDL_mutex
+SERIALIZED_EVENT_MAX_SIZE	control_event.h	13;"	d
+SERVER_H	server.h	2;"	d
+SERVER_INITIALIZER	server.h	18;"	d
+SHUT_RD	net.h	9;"	d
+SHUT_RDWR	net.h	11;"	d
+SHUT_WR	net.h	10;"	d
+SOCKADDR	net.c	/^  typedef struct sockaddr SOCKADDR;$/;"	t	typeref:struct:sockaddr	file:
+SOCKADDR_IN	net.c	/^  typedef struct sockaddr_in SOCKADDR_IN;$/;"	t	typeref:struct:sockaddr_in	file:
+SOCKET_ERROR	net.c	15;"	d	file:
+SOCKET_NAME	server.c	14;"	d	file:
+STRUTIL_H	str_util.h	2;"	d
+TEXT_MAX_LENGTH	control_event.h	12;"	d
+TINYXPM_H	tiny_xpm.h	2;"	d
+_ANDROID_INPUT_H	android/input.h	21;"	d
+_ANDROID_KEYCODES_H	android/keycodes.h	21;"	d
+action	control_event.h	/^            enum android_keyevent_action action;$/;"	m	struct:control_event::__anon1::__anon2	typeref:enum:control_event::__anon1::__anon2::android_keyevent_action
+action	control_event.h	/^            enum android_motionevent_action action;$/;"	m	struct:control_event::__anon1::__anon4	typeref:enum:control_event::__anon1::__anon4::android_motionevent_action
+action	control_event.h	/^            int action;$/;"	m	struct:control_event::__anon1::__anon6
+action	file_handler.c	/^    file_handler_action_t action;$/;"	m	struct:request	file:
+action_app_switch	input_manager.c	/^static inline void action_app_switch(struct controller *controller, int actions) {$/;"	f	file:
+action_back	input_manager.c	/^static inline void action_back(struct controller *controller, int actions) {$/;"	f	file:
+action_home	input_manager.c	/^static inline void action_home(struct controller *controller, int actions) {$/;"	f	file:
+action_menu	input_manager.c	/^static inline void action_menu(struct controller *controller, int actions) {$/;"	f	file:
+action_power	input_manager.c	/^static inline void action_power(struct controller *controller, int actions) {$/;"	f	file:
+action_volume_down	input_manager.c	/^static inline void action_volume_down(struct controller *controller, int actions) {$/;"	f	file:
+action_volume_up	input_manager.c	/^static inline void action_volume_up(struct controller *controller, int actions) {$/;"	f	file:
+adb_command	command.c	/^static const char *adb_command;$/;"	v	file:
+adb_execute	command.c	/^process_t adb_execute(const char *serial, const char *const adb_cmd[], int len) {$/;"	f
+adb_forward	command.c	/^process_t adb_forward(const char *serial, uint16_t local_port, const char *device_socket_name) {$/;"	f
+adb_forward_remove	command.c	/^process_t adb_forward_remove(const char *serial, uint16_t local_port) {$/;"	f
+adb_install	command.c	/^process_t adb_install(const char *serial, const char *local) {$/;"	f
+adb_push	command.c	/^process_t adb_push(const char *serial, const char *local, const char *remote) {$/;"	f
+adb_remove_path	command.c	/^process_t adb_remove_path(const char *serial, const char *path) {$/;"	f
+adb_reverse	command.c	/^process_t adb_reverse(const char *serial, const char *device_socket_name, uint16_t local_port) {$/;"	f
+adb_reverse_remove	command.c	/^process_t adb_reverse_remove(const char *serial, const char *device_socket_name) {$/;"	f
+android_input_event_type	android/input.h	/^enum android_input_event_type {$/;"	g
+android_input_source	android/input.h	/^enum android_input_source {$/;"	g
+android_input_source_class	android/input.h	/^enum android_input_source_class {$/;"	g
+android_keyboard_type	android/input.h	/^enum android_keyboard_type {$/;"	g
+android_keycode	android/keycodes.h	/^enum android_keycode {$/;"	g
+android_keyevent_action	android/input.h	/^enum android_keyevent_action {$/;"	g
+android_keyevent_flags	android/input.h	/^enum android_keyevent_flags {$/;"	g
+android_metastate	android/input.h	/^enum android_metastate {$/;"	g
+android_motion_range	android/input.h	/^enum android_motion_range {$/;"	g
+android_motionevent_action	android/input.h	/^enum android_motionevent_action {$/;"	g
+android_motionevent_axis	android/input.h	/^enum android_motionevent_axis {$/;"	g
+android_motionevent_buttons	android/input.h	/^enum android_motionevent_buttons {$/;"	g
+android_motionevent_edge_touch_flags	android/input.h	/^enum android_motionevent_edge_touch_flags {$/;"	g
+android_motionevent_flags	android/input.h	/^enum android_motionevent_flags {$/;"	g
+android_motionevent_tool_type	android/input.h	/^enum android_motionevent_tool_type {$/;"	g
+args	main.c	/^struct args {$/;"	s	file:
+autocomplete_metastate	convert.c	/^static enum android_metastate autocomplete_metastate(enum android_metastate metastate) {$/;"	f	file:
+bit_rate	main.c	/^    Uint32 bit_rate;$/;"	m	struct:args	file:
+bit_rate	scrcpy.h	/^    Uint32 bit_rate;$/;"	m	struct:scrcpy_options
+buttons	control_event.h	/^            enum android_motionevent_buttons buttons;$/;"	m	struct:control_event::__anon1::__anon4	typeref:enum:control_event::__anon1::__anon4::android_motionevent_buttons
+c	tiny_xpm.c	/^    char c;$/;"	m	struct:index	file:
+check_expired	fps_counter.c	/^static void check_expired(struct fps_counter *counter) {$/;"	f	file:
+clipboard_paste	input_manager.c	/^static void clipboard_paste(struct controller *controller) {$/;"	f	file:
+close_socket	server.c	/^static void close_socket(socket_t *socket) {$/;"	f	file:
+cmd_execute	sys/unix/command.c	/^enum process_result cmd_execute(const char *path, const char *const argv[], pid_t *pid) {$/;"	f
+cmd_execute	sys/win/command.c	/^enum process_result cmd_execute(const char *path, const char *const argv[], HANDLE *handle) {$/;"	f
+cmd_simple_wait	sys/unix/command.c	/^SDL_bool cmd_simple_wait(pid_t pid, int *exit_code) {$/;"	f
+cmd_simple_wait	sys/win/command.c	/^SDL_bool cmd_simple_wait(HANDLE handle, DWORD *exit_code) {$/;"	f
+cmd_terminate	sys/unix/command.c	/^SDL_bool cmd_terminate(pid_t pid) {$/;"	f
+cmd_terminate	sys/win/command.c	/^SDL_bool cmd_terminate(HANDLE handle) {$/;"	f
+color	tiny_xpm.c	/^    Uint32 color;$/;"	m	struct:index	file:
+command_event	control_event.h	/^        } command_event;$/;"	m	union:control_event::__anon1	typeref:struct:control_event::__anon1::__anon6
+complete_mouse_motion_event	convert.h	/^struct complete_mouse_motion_event {$/;"	s
+complete_mouse_wheel_event	convert.h	/^struct complete_mouse_wheel_event {$/;"	s
+cond_signal	lock_util.c	/^void cond_signal(SDL_cond *cond) {$/;"	f
+cond_wait	lock_util.c	/^void cond_wait(SDL_cond *cond, SDL_mutex *mutex) {$/;"	f
+connect_and_read_byte	server.c	/^static socket_t connect_and_read_byte(Uint16 port) {$/;"	f	file:
+connect_to_server	server.c	/^static socket_t connect_to_server(Uint16 port, Uint32 attempts, Uint32 delay) {$/;"	f	file:
+control_event	control_event.h	/^struct control_event {$/;"	s
+control_event_destroy	control_event.c	/^void control_event_destroy(struct control_event *event) {$/;"	f
+control_event_queue	control_event.h	/^struct control_event_queue {$/;"	s
+control_event_queue_destroy	control_event.c	/^void control_event_queue_destroy(struct control_event_queue *queue) {$/;"	f
+control_event_queue_init	control_event.c	/^SDL_bool control_event_queue_init(struct control_event_queue *queue) {$/;"	f
+control_event_queue_is_empty	control_event.c	/^SDL_bool control_event_queue_is_empty(const struct control_event_queue *queue) {$/;"	f
+control_event_queue_is_full	control_event.c	/^SDL_bool control_event_queue_is_full(const struct control_event_queue *queue) {$/;"	f
+control_event_queue_push	control_event.c	/^SDL_bool control_event_queue_push(struct control_event_queue *queue, const struct control_event *event) {$/;"	f
+control_event_queue_take	control_event.c	/^SDL_bool control_event_queue_take(struct control_event_queue *queue, struct control_event *event) {$/;"	f
+control_event_serialize	control_event.c	/^int control_event_serialize(const struct control_event *event, unsigned char *buf) {$/;"	f
+control_event_type	control_event.h	/^enum control_event_type {$/;"	g
+controller	controller.h	/^struct controller {$/;"	s
+controller	input_manager.h	/^    struct controller *controller;$/;"	m	struct:input_manager	typeref:struct:input_manager::controller
+controller	scrcpy.c	/^static struct controller controller;$/;"	v	typeref:struct:controller	file:
+controller_destroy	controller.c	/^void controller_destroy(struct controller *controller) {$/;"	f
+controller_init	controller.c	/^SDL_bool controller_init(struct controller *controller, socket_t video_socket) {$/;"	f
+controller_join	controller.c	/^void controller_join(struct controller *controller) {$/;"	f
+controller_push_event	controller.c	/^SDL_bool controller_push_event(struct controller *controller, const struct control_event *event) {$/;"	f
+controller_start	controller.c	/^SDL_bool controller_start(struct controller *controller) {$/;"	f
+controller_stop	controller.c	/^void controller_stop(struct controller *controller) {$/;"	f
+convert_keycode	convert.c	/^static SDL_bool convert_keycode(SDL_Keycode from, enum android_keycode *to, Uint16 mod) {$/;"	f	file:
+convert_keycode_action	convert.c	/^static SDL_bool convert_keycode_action(SDL_EventType from, enum android_keyevent_action *to) {$/;"	f	file:
+convert_meta_state	convert.c	/^static enum android_metastate convert_meta_state(SDL_Keymod mod) {$/;"	f	file:
+convert_mouse_action	convert.c	/^static SDL_bool convert_mouse_action(SDL_EventType from, enum android_motionevent_action *to) {$/;"	f	file:
+convert_mouse_buttons	convert.c	/^static enum android_motionevent_buttons convert_mouse_buttons(Uint32 state) {$/;"	f	file:
+convert_to_renderer_coordinates	input_manager.c	/^static void convert_to_renderer_coordinates(SDL_Renderer *renderer, int *x, int *y) {$/;"	f	file:
+create_texture	screen.c	/^static inline SDL_Texture *create_texture(SDL_Renderer *renderer, struct size frame_size) {$/;"	f	file:
+crop	main.c	/^    const char *crop;$/;"	m	struct:args	file:
+crop	scrcpy.h	/^    const char *crop;$/;"	m	struct:scrcpy_options
+current_process	file_handler.h	/^    process_t current_process;$/;"	m	struct:file_handler
+data	control_event.h	/^    struct control_event data[CONTROL_EVENT_QUEUE_SIZE];$/;"	m	struct:control_event_queue	typeref:struct:control_event_queue::control_event
+decoder	decoder.h	/^struct decoder {$/;"	s
+decoder	scrcpy.c	/^static struct decoder decoder;$/;"	v	typeref:struct:decoder	file:
+decoder_init	decoder.c	/^void decoder_init(struct decoder *decoder, struct frames *frames, socket_t video_socket) {$/;"	f
+decoder_join	decoder.c	/^void decoder_join(struct decoder *decoder) {$/;"	f
+decoder_start	decoder.c	/^SDL_bool decoder_start(struct decoder *decoder) {$/;"	f
+decoder_stop	decoder.c	/^void decoder_stop(struct decoder *decoder) {$/;"	f
+decoding_frame	frames.h	/^    AVFrame *decoding_frame;$/;"	m	struct:frames
+device_read_info	device.c	/^SDL_bool device_read_info(socket_t device_socket, char *device_name, struct size *size) {$/;"	f
+device_socket	server.h	/^    socket_t device_socket;$/;"	m	struct:server
+disable_tunnel	server.c	/^static SDL_bool disable_tunnel(struct server *server) {$/;"	f	file:
+disable_tunnel_forward	server.c	/^static SDL_bool disable_tunnel_forward(const char *serial, Uint16 local_port) {$/;"	f	file:
+disable_tunnel_reverse	server.c	/^static SDL_bool disable_tunnel_reverse(const char *serial) {$/;"	f	file:
+display_fps	fps_counter.c	/^static void display_fps(struct fps_counter *counter) {$/;"	f	file:
+enable_tunnel	server.c	/^static SDL_bool enable_tunnel(struct server *server) {$/;"	f	file:
+enable_tunnel_forward	server.c	/^static SDL_bool enable_tunnel_forward(const char *serial, Uint16 local_port) {$/;"	f	file:
+enable_tunnel_reverse	server.c	/^static SDL_bool enable_tunnel_reverse(const char *serial, Uint16 local_port) {$/;"	f	file:
+event_cond	controller.h	/^    SDL_cond *event_cond;$/;"	m	struct:controller
+event_cond	file_handler.h	/^    SDL_cond *event_cond;$/;"	m	struct:file_handler
+event_loop	scrcpy.c	/^static SDL_bool event_loop(void) {$/;"	f	file:
+event_watcher	scrcpy.c	/^static int event_watcher(void *data, SDL_Event *event) {$/;"	f	file:
+execute_server	server.c	/^static process_t execute_server(const char *serial,$/;"	f	file:
+exit_code_t	command.h	/^  typedef DWORD exit_code_t;$/;"	t
+exit_code_t	command.h	/^  typedef int exit_code_t;$/;"	t
+file	file_handler.c	/^    const char *file;$/;"	m	struct:request	file:
+file_handler	file_handler.h	/^struct file_handler {$/;"	s
+file_handler	scrcpy.c	/^static struct file_handler file_handler;$/;"	v	typeref:struct:file_handler	file:
+file_handler_action_t	file_handler.h	/^} file_handler_action_t;$/;"	t	typeref:enum:__anon7
+file_handler_destroy	file_handler.c	/^void file_handler_destroy(struct file_handler *file_handler) {$/;"	f
+file_handler_init	file_handler.c	/^SDL_bool file_handler_init(struct file_handler *file_handler, const char *serial) {$/;"	f
+file_handler_join	file_handler.c	/^void file_handler_join(struct file_handler *file_handler) {$/;"	f
+file_handler_request	file_handler.c	/^SDL_bool file_handler_request(struct file_handler *file_handler,$/;"	f
+file_handler_start	file_handler.c	/^SDL_bool file_handler_start(struct file_handler *file_handler) {$/;"	f
+file_handler_stop	file_handler.c	/^void file_handler_stop(struct file_handler *file_handler) {$/;"	f
+find_color	tiny_xpm.c	/^static SDL_bool find_color(struct index *index, int len, char c, Uint32 *color) {$/;"	f	file:
+fps_counter	fps_counter.h	/^struct fps_counter {$/;"	s
+fps_counter	frames.h	/^    struct fps_counter fps_counter;$/;"	m	struct:frames	typeref:struct:frames::fps_counter
+fps_counter_add_rendered_frame	fps_counter.c	/^void fps_counter_add_rendered_frame(struct fps_counter *counter) {$/;"	f
+fps_counter_add_skipped_frame	fps_counter.c	/^void fps_counter_add_skipped_frame(struct fps_counter *counter) {$/;"	f
+fps_counter_init	fps_counter.c	/^void fps_counter_init(struct fps_counter *counter) {$/;"	f
+fps_counter_start	fps_counter.c	/^void fps_counter_start(struct fps_counter *counter) {$/;"	f
+fps_counter_stop	fps_counter.c	/^void fps_counter_stop(struct fps_counter *counter) {$/;"	f
+frame_size	screen.h	/^    struct size frame_size;$/;"	m	struct:screen	typeref:struct:screen::size
+frames	decoder.h	/^    struct frames *frames;$/;"	m	struct:decoder	typeref:struct:decoder::frames
+frames	frames.h	/^struct frames {$/;"	s
+frames	input_manager.h	/^    struct frames *frames;$/;"	m	struct:input_manager	typeref:struct:input_manager::frames
+frames	scrcpy.c	/^static struct frames frames;$/;"	v	typeref:struct:frames	file:
+frames_consume_rendered_frame	frames.c	/^const AVFrame *frames_consume_rendered_frame(struct frames *frames) {$/;"	f
+frames_destroy	frames.c	/^void frames_destroy(struct frames *frames) {$/;"	f
+frames_init	frames.c	/^SDL_bool frames_init(struct frames *frames) {$/;"	f
+frames_offer_decoded_frame	frames.c	/^SDL_bool frames_offer_decoded_frame(struct frames *frames) {$/;"	f
+frames_stop	frames.c	/^void frames_stop(struct frames *frames) {$/;"	f
+frames_swap	frames.c	/^static void frames_swap(struct frames *frames) {$/;"	f	file:
+fullscreen	main.c	/^    SDL_bool fullscreen;$/;"	m	struct:args	file:
+fullscreen	scrcpy.h	/^    SDL_bool fullscreen;$/;"	m	struct:scrcpy_options
+fullscreen	screen.h	/^    SDL_bool fullscreen;$/;"	m	struct:screen
+get_adb_command	command.c	/^static inline const char *get_adb_command() {$/;"	f	file:
+get_initial_optimal_size	screen.c	/^static inline struct size get_initial_optimal_size(struct size frame_size) {$/;"	f	file:
+get_mouse_point	input_manager.c	/^static struct point get_mouse_point(struct screen *screen) {$/;"	f	file:
+get_native_window_size	screen.c	/^static struct size get_native_window_size(SDL_Window *window) {$/;"	f	file:
+get_optimal_size	screen.c	/^static struct size get_optimal_size(struct size current_size, struct size frame_size) {$/;"	f	file:
+get_optimal_window_size	screen.c	/^static inline struct size get_optimal_window_size(const struct screen *screen, struct size frame_size) {$/;"	f	file:
+get_preferred_display_bounds	screen.c	/^static SDL_bool get_preferred_display_bounds(struct size *bounds) {$/;"	f	file:
+get_server_path	server.c	/^static const char *get_server_path(void) {$/;"	f	file:
+get_window_size	screen.c	/^static struct size get_window_size(const struct screen *screen) {$/;"	f	file:
+has_frame	screen.h	/^    SDL_bool has_frame;$/;"	m	struct:screen
+head	control_event.h	/^    int head;$/;"	m	struct:control_event_queue
+head	file_handler.h	/^    int head;$/;"	m	struct:request_queue
+height	common.h	/^    Uint16 height;$/;"	m	struct:size
+help	main.c	/^    SDL_bool help;$/;"	m	struct:args	file:
+hscroll	control_event.h	/^            Sint32 hscroll;$/;"	m	struct:control_event::__anon1::__anon5
+index	tiny_xpm.c	/^struct index {$/;"	s	file:
+initialized	file_handler.h	/^    SDL_bool initialized;$/;"	m	struct:file_handler
+input_key_from_sdl_to_android	convert.c	/^SDL_bool input_key_from_sdl_to_android(const SDL_KeyboardEvent *from,$/;"	f
+input_manager	input_manager.h	/^struct input_manager {$/;"	s
+input_manager	scrcpy.c	/^static struct input_manager input_manager = {$/;"	v	typeref:struct:input_manager	file:
+input_manager_process_key	input_manager.c	/^void input_manager_process_key(struct input_manager *input_manager,$/;"	f
+input_manager_process_mouse_button	input_manager.c	/^void input_manager_process_mouse_button(struct input_manager *input_manager,$/;"	f
+input_manager_process_mouse_motion	input_manager.c	/^void input_manager_process_mouse_motion(struct input_manager *input_manager,$/;"	f
+input_manager_process_mouse_wheel	input_manager.c	/^void input_manager_process_mouse_wheel(struct input_manager *input_manager,$/;"	f
+input_manager_process_text_input	input_manager.c	/^void input_manager_process_text_input(struct input_manager *input_manager,$/;"	f
+install_apk	file_handler.c	/^static process_t install_apk(const char *serial, const char *file) {$/;"	f	file:
+is_apk	scrcpy.c	/^static SDL_bool is_apk(const char *file) {$/;"	f	file:
+keycode	control_event.h	/^            enum android_keycode keycode;$/;"	m	struct:control_event::__anon1::__anon2	typeref:enum:control_event::__anon1::__anon2::android_keycode
+keycode_event	control_event.h	/^        } keycode_event;$/;"	m	union:control_event::__anon1	typeref:struct:control_event::__anon1::__anon2
+listen_on_port	server.c	/^static socket_t listen_on_port(Uint16 port) {$/;"	f	file:
+local_port	server.h	/^    Uint16 local_port;$/;"	m	struct:server
+main	main.c	/^int main(int argc, char *argv[]) {$/;"	f
+max_size	main.c	/^    Uint16 max_size;$/;"	m	struct:args	file:
+max_size	scrcpy.h	/^    Uint16 max_size;$/;"	m	struct:scrcpy_options
+metastate	control_event.h	/^            enum android_metastate metastate;$/;"	m	struct:control_event::__anon1::__anon2	typeref:enum:control_event::__anon1::__anon2::android_metastate
+mouse_button_from_sdl_to_android	convert.c	/^SDL_bool mouse_button_from_sdl_to_android(const SDL_MouseButtonEvent *from,$/;"	f
+mouse_event	control_event.h	/^        } mouse_event;$/;"	m	union:control_event::__anon1	typeref:struct:control_event::__anon1::__anon4
+mouse_motion_event	convert.h	/^    SDL_MouseMotionEvent *mouse_motion_event;$/;"	m	struct:complete_mouse_motion_event
+mouse_motion_from_sdl_to_android	convert.c	/^SDL_bool mouse_motion_from_sdl_to_android(const SDL_MouseMotionEvent *from,$/;"	f
+mouse_wheel_event	convert.h	/^    SDL_MouseWheelEvent *mouse_wheel_event;$/;"	m	struct:complete_mouse_wheel_event
+mouse_wheel_from_sdl_to_android	convert.c	/^SDL_bool mouse_wheel_from_sdl_to_android(const SDL_MouseWheelEvent *from,$/;"	f
+mutex	controller.h	/^    SDL_mutex *mutex;$/;"	m	struct:controller
+mutex	decoder.h	/^    SDL_mutex *mutex;$/;"	m	struct:decoder
+mutex	file_handler.h	/^    SDL_mutex *mutex;$/;"	m	struct:file_handler
+mutex	frames.h	/^    SDL_mutex *mutex;$/;"	m	struct:frames
+mutex_lock	lock_util.c	/^void mutex_lock(SDL_mutex *mutex) {$/;"	f
+mutex_unlock	lock_util.c	/^void mutex_unlock(SDL_mutex *mutex) {$/;"	f
+net_accept	net.c	/^socket_t net_accept(socket_t server_socket) {$/;"	f
+net_cleanup	sys/unix/net.c	/^void net_cleanup(void) {$/;"	f
+net_cleanup	sys/win/net.c	/^void net_cleanup(void) {$/;"	f
+net_close	sys/unix/net.c	/^SDL_bool net_close(socket_t socket) {$/;"	f
+net_close	sys/win/net.c	/^SDL_bool net_close(socket_t socket) {$/;"	f
+net_connect	net.c	/^socket_t net_connect(Uint32 addr, Uint16 port) {$/;"	f
+net_init	sys/unix/net.c	/^SDL_bool net_init(void) {$/;"	f
+net_init	sys/win/net.c	/^SDL_bool net_init(void) {$/;"	f
+net_listen	net.c	/^socket_t net_listen(Uint32 addr, Uint16 port, int backlog) {$/;"	f
+net_recv	net.c	/^ssize_t net_recv(socket_t socket, void *buf, size_t len) {$/;"	f
+net_recv_all	net.c	/^ssize_t net_recv_all(socket_t socket, void *buf, size_t len) {$/;"	f
+net_send	net.c	/^ssize_t net_send(socket_t socket, const void *buf, size_t len) {$/;"	f
+net_send_all	net.c	/^ssize_t net_send_all(socket_t socket, const void *buf, size_t len) {$/;"	f
+net_shutdown	net.c	/^SDL_bool net_shutdown(socket_t socket, int how) {$/;"	f
+notify_stopped	decoder.c	/^static void notify_stopped(void) {$/;"	f	file:
+nr_rendered	fps_counter.h	/^    int nr_rendered;$/;"	m	struct:fps_counter
+nr_skipped	fps_counter.h	/^    int nr_skipped;$/;"	m	struct:fps_counter
+parse_args	main.c	/^static SDL_bool parse_args(struct args *args, int argc, char *argv[]) {$/;"	f	file:
+parse_bit_rate	main.c	/^static SDL_bool parse_bit_rate(char *optarg, Uint32 *bit_rate) {$/;"	f	file:
+parse_max_size	main.c	/^static SDL_bool parse_max_size(char *optarg, Uint16 *max_size) {$/;"	f	file:
+parse_port	main.c	/^static SDL_bool parse_port(char *optarg, Uint16 *port) {$/;"	f	file:
+point	common.h	/^    struct point point;$/;"	m	struct:position	typeref:struct:position::point
+point	common.h	/^struct point {$/;"	s
+port	main.c	/^    Uint16 port;$/;"	m	struct:args	file:
+port	scrcpy.h	/^    Uint16 port;$/;"	m	struct:scrcpy_options
+position	common.h	/^struct position {$/;"	s
+position	control_event.h	/^            struct position position;$/;"	m	struct:control_event::__anon1::__anon4	typeref:struct:control_event::__anon1::__anon4::position
+position	control_event.h	/^            struct position position;$/;"	m	struct:control_event::__anon1::__anon5	typeref:struct:control_event::__anon1::__anon5::position
+position	convert.h	/^    struct point position;$/;"	m	struct:complete_mouse_wheel_event	typeref:struct:complete_mouse_wheel_event::point
+prepare_for_frame	screen.c	/^static SDL_bool prepare_for_frame(struct screen *screen, struct size new_frame_size) {$/;"	f	file:
+press_back_or_turn_screen_on	input_manager.c	/^static void press_back_or_turn_screen_on(struct controller *controller) {$/;"	f	file:
+print_version	main.c	/^static void print_version(void) {$/;"	f	file:
+process	server.h	/^    process_t process;$/;"	m	struct:server
+process_check_success	command.c	/^SDL_bool process_check_success(process_t proc, const char *name) {$/;"	f
+process_event	controller.c	/^static SDL_bool process_event(struct controller *controller, const struct control_event *event) {$/;"	f	file:
+process_result	command.h	/^enum process_result {$/;"	g
+process_t	command.h	/^  typedef HANDLE process_t;$/;"	t
+process_t	command.h	/^  typedef pid_t process_t;$/;"	t
+push_file	file_handler.c	/^static process_t push_file(const char *serial, const char *file) {$/;"	f	file:
+push_frame	decoder.c	/^static void push_frame(struct decoder *decoder) {$/;"	f	file:
+push_server	server.c	/^static SDL_bool push_server(const char *serial) {$/;"	f	file:
+queue	controller.h	/^    struct control_event_queue queue;$/;"	m	struct:controller	typeref:struct:controller::control_event_queue
+queue	file_handler.h	/^    struct request_queue queue;$/;"	m	struct:file_handler	typeref:struct:file_handler::request_queue
+read_packet	decoder.c	/^static int read_packet(void *opaque, uint8_t *buf, int buf_size) {$/;"	f	file:
+read_xpm	tiny_xpm.c	/^SDL_Surface *read_xpm(char *xpm[]) {$/;"	f
+remove_server	server.c	/^static SDL_bool remove_server(const char *serial) {$/;"	f	file:
+renderer	screen.h	/^    SDL_Renderer *renderer;$/;"	m	struct:screen
+rendering_frame	frames.h	/^    AVFrame *rendering_frame;$/;"	m	struct:frames
+rendering_frame_consumed	frames.h	/^    SDL_bool rendering_frame_consumed;$/;"	m	struct:frames
+rendering_frame_consumed_cond	frames.h	/^    SDL_cond *rendering_frame_consumed_cond;$/;"	m	struct:frames
+reqs	file_handler.h	/^    struct request *reqs[REQUEST_QUEUE_SIZE];$/;"	m	struct:request_queue	typeref:struct:request_queue::request
+request	file_handler.c	/^struct request {$/;"	s	file:
+request_free	file_handler.c	/^static void request_free(struct request *req) {$/;"	f	file:
+request_new	file_handler.c	/^static struct request *request_new(file_handler_action_t action, const char *file) {$/;"	f	file:
+request_queue	file_handler.h	/^struct request_queue {$/;"	s
+request_queue_destroy	file_handler.c	/^static void request_queue_destroy(struct request_queue *queue) {$/;"	f	file:
+request_queue_init	file_handler.c	/^static SDL_bool request_queue_init(struct request_queue *queue) {$/;"	f	file:
+request_queue_is_empty	file_handler.c	/^static SDL_bool request_queue_is_empty(const struct request_queue *queue) {$/;"	f	file:
+request_queue_is_full	file_handler.c	/^static SDL_bool request_queue_is_full(const struct request_queue *queue) {$/;"	f	file:
+request_queue_push	file_handler.c	/^static SDL_bool request_queue_push(struct request_queue *queue, struct request *req) {$/;"	f	file:
+request_queue_take	file_handler.c	/^static SDL_bool request_queue_take(struct request_queue *queue, struct request **req) {$/;"	f	file:
+run_controller	controller.c	/^static int run_controller(void *data) {$/;"	f	file:
+run_decoder	decoder.c	/^static int run_decoder(void *data) {$/;"	f	file:
+run_file_handler	file_handler.c	/^static int run_file_handler(void *data) {$/;"	f	file:
+scrcpy	scrcpy.c	/^SDL_bool scrcpy(const struct scrcpy_options *options) {$/;"	f
+scrcpy_options	scrcpy.h	/^struct scrcpy_options {$/;"	s
+screen	input_manager.h	/^    struct screen *screen;$/;"	m	struct:input_manager	typeref:struct:input_manager::screen
+screen	scrcpy.c	/^static struct screen screen = SCREEN_INITIALIZER;$/;"	v	typeref:struct:screen	file:
+screen	screen.h	/^struct screen {$/;"	s
+screen_destroy	screen.c	/^void screen_destroy(struct screen *screen) {$/;"	f
+screen_init	screen.c	/^void screen_init(struct screen *screen) {$/;"	f
+screen_init_rendering	screen.c	/^SDL_bool screen_init_rendering(struct screen *screen, const char *device_name, struct size frame_size) {$/;"	f
+screen_render	screen.c	/^void screen_render(struct screen *screen) {$/;"	f
+screen_resize_to_fit	screen.c	/^void screen_resize_to_fit(struct screen *screen) {$/;"	f
+screen_resize_to_pixel_perfect	screen.c	/^void screen_resize_to_pixel_perfect(struct screen *screen) {$/;"	f
+screen_show_window	screen.c	/^void screen_show_window(struct screen *screen) {$/;"	f
+screen_size	common.h	/^    struct size screen_size;$/;"	m	struct:position	typeref:struct:position::size
+screen_size	convert.h	/^    struct size screen_size;$/;"	m	struct:complete_mouse_motion_event	typeref:struct:complete_mouse_motion_event::size
+screen_switch_fullscreen	screen.c	/^void screen_switch_fullscreen(struct screen *screen) {$/;"	f
+screen_update_frame	screen.c	/^SDL_bool screen_update_frame(struct screen *screen, struct frames *frames) {$/;"	f
+scroll_event	control_event.h	/^        } scroll_event;$/;"	m	union:control_event::__anon1	typeref:struct:control_event::__anon1::__anon5
+sdl_init_and_configure	screen.c	/^SDL_bool sdl_init_and_configure(void) {$/;"	f
+send_keycode	input_manager.c	/^static void send_keycode(struct controller *controller, enum android_keycode keycode, int actions, const char *name) {$/;"	f	file:
+serial	file_handler.h	/^    const char *serial;$/;"	m	struct:file_handler
+serial	main.c	/^    const char *serial;$/;"	m	struct:args	file:
+serial	scrcpy.h	/^    const char *serial;$/;"	m	struct:scrcpy_options
+serial	server.h	/^    const char *serial;$/;"	m	struct:server
+server	scrcpy.c	/^static struct server server = SERVER_INITIALIZER;$/;"	v	typeref:struct:server	file:
+server	server.h	/^struct server {$/;"	s
+server_connect_to	server.c	/^socket_t server_connect_to(struct server *server) {$/;"	f
+server_copied_to_device	server.h	/^    SDL_bool server_copied_to_device;$/;"	m	struct:server
+server_destroy	server.c	/^void server_destroy(struct server *server) {$/;"	f
+server_init	server.c	/^void server_init(struct server *server) {$/;"	f
+server_socket	server.h	/^    socket_t server_socket; \/\/ only used if !tunnel_forward$/;"	m	struct:server
+server_start	server.c	/^SDL_bool server_start(struct server *server, const char *serial, Uint16 local_port,$/;"	f
+server_stop	server.c	/^void server_stop(struct server *server) {$/;"	f
+set_show_touches_enabled	scrcpy.c	/^static process_t set_show_touches_enabled(const char *serial, SDL_bool enabled) {$/;"	f	file:
+set_window_size	screen.c	/^static void set_window_size(struct screen *screen, struct size new_size) {$/;"	f	file:
+show_adb_err_msg	command.c	/^static void show_adb_err_msg(enum process_result err) {$/;"	f	file:
+show_touches	main.c	/^    SDL_bool show_touches;$/;"	m	struct:args	file:
+show_touches	scrcpy.h	/^    SDL_bool show_touches;$/;"	m	struct:scrcpy_options
+size	common.h	/^struct size {$/;"	s
+slice_start	fps_counter.h	/^    Uint32 slice_start; \/\/ initialized by SDL_GetTicks()$/;"	m	struct:fps_counter
+socket_t	net.h	/^  typedef SOCKET socket_t;$/;"	t
+socket_t	net.h	/^  typedef int socket_t;$/;"	t
+socklen_t	net.c	/^  typedef int socklen_t;$/;"	t	file:
+started	fps_counter.h	/^    SDL_bool started;$/;"	m	struct:fps_counter
+stopped	controller.h	/^    SDL_bool stopped;$/;"	m	struct:controller
+stopped	file_handler.h	/^    SDL_bool stopped;$/;"	m	struct:file_handler
+stopped	frames.h	/^    SDL_bool stopped;$/;"	m	struct:frames
+switch_fps_counter_state	input_manager.c	/^static void switch_fps_counter_state(struct frames *frames) {$/;"	f	file:
+tail	control_event.h	/^    int tail;$/;"	m	struct:control_event_queue
+tail	file_handler.h	/^    int tail;$/;"	m	struct:request_queue
+text	control_event.h	/^            char *text; \/\/ owned, to be freed by SDL_free()$/;"	m	struct:control_event::__anon1::__anon3
+text_event	control_event.h	/^        } text_event;$/;"	m	union:control_event::__anon1	typeref:struct:control_event::__anon1::__anon3
+texture	screen.h	/^    SDL_Texture *texture;$/;"	m	struct:screen
+thread	controller.h	/^    SDL_Thread *thread;$/;"	m	struct:controller
+thread	decoder.h	/^    SDL_Thread *thread;$/;"	m	struct:decoder
+thread	file_handler.h	/^    SDL_Thread *thread;$/;"	m	struct:file_handler
+tunnel_enabled	server.h	/^    SDL_bool tunnel_enabled;$/;"	m	struct:server
+tunnel_forward	server.h	/^    SDL_bool tunnel_forward; \/\/ use "adb forward" instead of "adb reverse"$/;"	m	struct:server
+type	control_event.h	/^    enum control_event_type type;$/;"	m	struct:control_event	typeref:enum:control_event::control_event_type
+update_texture	screen.c	/^static void update_texture(struct screen *screen, const AVFrame *frame) {$/;"	f	file:
+usage	main.c	/^static void usage(const char *arg0) {$/;"	f	file:
+version	main.c	/^    SDL_bool version;$/;"	m	struct:args	file:
+video_socket	controller.h	/^    socket_t video_socket;$/;"	m	struct:controller
+video_socket	decoder.h	/^    socket_t video_socket;$/;"	m	struct:decoder
+vscroll	control_event.h	/^            Sint32 vscroll;$/;"	m	struct:control_event::__anon1::__anon5
+wait_show_touches	scrcpy.c	/^static void wait_show_touches(process_t process) {$/;"	f	file:
+width	common.h	/^    Uint16 width;$/;"	m	struct:size
+window	screen.h	/^    SDL_Window *window;$/;"	m	struct:screen
+windowed_window_size	screen.h	/^    struct size windowed_window_size;$/;"	m	struct:screen	typeref:struct:screen::size
+write16	control_event.c	/^static inline void write16(Uint8 *buf, Uint16 value) {$/;"	f	file:
+write32	control_event.c	/^static inline void write32(Uint8 *buf, Uint32 value) {$/;"	f	file:
+write_position	control_event.c	/^static void write_position(Uint8 *buf, const struct position *position) {$/;"	f	file:
+x	common.h	/^    Uint16 x;$/;"	m	struct:point
+xstrjoin	str_util.c	/^size_t xstrjoin(char *dst, const char *const tokens[], char sep, size_t n) {$/;"	f
+xstrncpy	str_util.c	/^size_t xstrncpy(char *dest, const char *src, size_t n) {$/;"	f
+y	common.h	/^    Uint16 y;$/;"	m	struct:point

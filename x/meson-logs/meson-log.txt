@@ -1,0 +1,85 @@
+Build started at 2018-10-26T15:01:39.687581
+Main binary: /usr/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.48.1
+Source dir: /home/neil/tools/scrcpy-1.4.1
+Build dir: /home/neil/tools/scrcpy-1.4.1/x
+Build type: native build
+Project name: scrcpy
+Project version: undefined
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /home/neil/tools/scrcpy-1.4.1/x/meson-private/sanitycheckc.c -o /home/neil/tools/scrcpy-1.4.1/x/meson-private/sanitycheckc.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/neil/tools/scrcpy-1.4.1/x/meson-private/sanitycheckc.exe
+Native C compiler: cc (gcc 4.8.4 "cc (Ubuntu 4.8.4-2ubuntu1~14.04.4) 4.8.4")
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Found pkg-config: /usr/bin/pkg-config (0.26)
+Determining dependency 'libavformat' with pkg-config executable '/usr/bin/pkg-config'
+Called `/usr/bin/pkg-config --modversion libavformat` -> 0
+58.12.100
+Called `/usr/bin/pkg-config --cflags libavformat` -> 0
+-I/monchickey/ffmpeg/include
+Called `/usr/bin/pkg-config libavformat --libs` -> 0
+-L/monchickey/ffmpeg/lib -lavformat
+Called `/usr/bin/pkg-config libavformat --libs` -> 0
+-L/monchickey/ffmpeg/lib -lavformat
+Running compile:
+Working directory:  /tmp/tmpmuzs_3xo
+Command line:  cc /tmp/tmpmuzs_3xo/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpmuzs_3xo/output.obj -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/4.8/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/4.8/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/4.8/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Dependency libavformat found: YES 58.12.100
+Determining dependency 'libavcodec' with pkg-config executable '/usr/bin/pkg-config'
+Called `/usr/bin/pkg-config --modversion libavcodec` -> 0
+58.18.100
+Called `/usr/bin/pkg-config --cflags libavcodec` -> 0
+-I/monchickey/ffmpeg/include
+Called `/usr/bin/pkg-config libavcodec --libs` -> 0
+-L/monchickey/ffmpeg/lib -lavcodec
+Called `/usr/bin/pkg-config libavcodec --libs` -> 0
+-L/monchickey/ffmpeg/lib -lavcodec
+Dependency libavcodec found: YES 58.18.100
+Determining dependency 'libavutil' with pkg-config executable '/usr/bin/pkg-config'
+Called `/usr/bin/pkg-config --modversion libavutil` -> 0
+56.14.100
+Called `/usr/bin/pkg-config --cflags libavutil` -> 0
+-I/monchickey/ffmpeg/include
+Called `/usr/bin/pkg-config libavutil --libs` -> 0
+-L/monchickey/ffmpeg/lib -lavutil
+Called `/usr/bin/pkg-config libavutil --libs` -> 0
+-L/monchickey/ffmpeg/lib -lavutil
+Dependency libavutil found: YES 56.14.100
+Determining dependency 'sdl2' with pkg-config executable '/usr/bin/pkg-config'
+Called `/usr/bin/pkg-config --modversion sdl2` -> 0
+2.0.8
+Called `/usr/bin/pkg-config --cflags sdl2` -> 0
+-D_REENTRANT -I/usr/local/include/SDL2
+Called `/usr/bin/pkg-config sdl2 --libs` -> 0
+-Wl,-rpath,/usr/local/lib -Wl,--enable-new-dtags -L/usr/local/lib -lSDL2
+Called `/usr/bin/pkg-config sdl2 --libs` -> 0
+-Wl,-rpath,/usr/local/lib -Wl,--enable-new-dtags -L/usr/local/lib -lSDL2
+Dependency sdl2 found: YES 2.0.8
+Configuring config.h using configuration
+Adding test "test_control_event_queue"
+Adding test "test_control_event_serialize"
+Adding test "test_strutil"
+Program ./scripts/build-wrapper.sh found: YES (/home/neil/tools/scrcpy-1.4.1/server/./scripts/build-wrapper.sh)
+DEPRECATION: build_always is deprecated. Combine build_by_default and build_always_stale instead.
+Build targets in project: 6
+Found ninja-1.8.2 at /usr/bin/ninja

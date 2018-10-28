@@ -1,0 +1,291 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CLASS	wrappers/SurfaceControl.java	/^    private static final Class<?> CLASS;$/;"	f	class:SurfaceControl	file:
+COMMAND_BACK_OR_SCREEN_ON	ControlEvent.java	/^    public static final int COMMAND_BACK_OR_SCREEN_ON = 0;$/;"	f	class:ControlEvent
+COMMAND_PAYLOAD_LENGTH	ControlEventReader.java	/^    private static final int COMMAND_PAYLOAD_LENGTH = 1;$/;"	f	class:ControlEventReader	file:
+COMPOSITION_MAP	KeyComposition.java	/^    private static final Map<Character, String> COMPOSITION_MAP = createDecompositionMap();$/;"	f	class:KeyComposition	file:
+ControlEvent	ControlEvent.java	/^    private ControlEvent() {$/;"	m	class:ControlEvent	file:
+ControlEvent	ControlEvent.java	/^public final class ControlEvent {$/;"	c
+ControlEventReader	ControlEventReader.java	/^    public ControlEventReader() {$/;"	m	class:ControlEventReader
+ControlEventReader	ControlEventReader.java	/^public class ControlEventReader {$/;"	c
+DEBUG	Ln.java	/^        DEBUG,$/;"	e	enum:Ln.Level	file:
+DEFAULT_FRAME_RATE	ScreenEncoder.java	/^    private static final int DEFAULT_FRAME_RATE = 60; \/\/ fps$/;"	f	class:ScreenEncoder	file:
+DEFAULT_I_FRAME_INTERVAL	ScreenEncoder.java	/^    private static final int DEFAULT_I_FRAME_INTERVAL = 10; \/\/ seconds$/;"	f	class:ScreenEncoder	file:
+DEVICE_NAME_FIELD_LENGTH	DesktopConnection.java	/^    private static final int DEVICE_NAME_FIELD_LENGTH = 64;$/;"	f	class:DesktopConnection	file:
+DesktopConnection	DesktopConnection.java	/^    private DesktopConnection(LocalSocket socket) throws IOException {$/;"	m	class:DesktopConnection	file:
+DesktopConnection	DesktopConnection.java	/^public final class DesktopConnection implements Closeable {$/;"	c
+Device	Device.java	/^    public Device(Options options) {$/;"	m	class:Device
+Device	Device.java	/^public final class Device {$/;"	c
+DisplayInfo	DisplayInfo.java	/^    public DisplayInfo(Size size, int rotation) {$/;"	m	class:DisplayInfo
+DisplayInfo	DisplayInfo.java	/^public final class DisplayInfo {$/;"	c
+DisplayManager	wrappers/DisplayManager.java	/^    public DisplayManager(IInterface manager) {$/;"	m	class:DisplayManager
+DisplayManager	wrappers/DisplayManager.java	/^public final class DisplayManager {$/;"	c
+ERROR	Ln.java	/^        ERROR;$/;"	e	enum:Ln.Level	file:
+EventController	EventController.java	/^    public EventController(Device device, DesktopConnection connection) {$/;"	m	class:EventController
+EventController	EventController.java	/^public class EventController {$/;"	c
+INFO	Ln.java	/^        INFO,$/;"	e	enum:Ln.Level	file:
+INJECT_INPUT_EVENT_MODE_ASYNC	wrappers/InputManager.java	/^    public static final int INJECT_INPUT_EVENT_MODE_ASYNC = 0;$/;"	f	class:InputManager
+INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH	wrappers/InputManager.java	/^    public static final int INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH = 2;$/;"	f	class:InputManager
+INJECT_INPUT_EVENT_MODE_WAIT_FOR_RESULT	wrappers/InputManager.java	/^    public static final int INJECT_INPUT_EVENT_MODE_WAIT_FOR_RESULT = 1;$/;"	f	class:InputManager
+IO	IO.java	/^    private IO() {$/;"	m	class:IO	file:
+IO	IO.java	/^public class IO {$/;"	c
+InputManager	wrappers/InputManager.java	/^    public InputManager(IInterface manager) {$/;"	m	class:InputManager
+InputManager	wrappers/InputManager.java	/^public final class InputManager {$/;"	c
+KEYCODE_PAYLOAD_LENGTH	ControlEventReader.java	/^    private static final int KEYCODE_PAYLOAD_LENGTH = 9;$/;"	f	class:ControlEventReader	file:
+KEY_DEAD_ACUTE	KeyComposition.java	/^    private static final String KEY_DEAD_ACUTE = "\\u0301";$/;"	f	class:KeyComposition	file:
+KEY_DEAD_CIRCUMFLEX	KeyComposition.java	/^    private static final String KEY_DEAD_CIRCUMFLEX = "\\u0302";$/;"	f	class:KeyComposition	file:
+KEY_DEAD_GRAVE	KeyComposition.java	/^    private static final String KEY_DEAD_GRAVE = "\\u0300";$/;"	f	class:KeyComposition	file:
+KEY_DEAD_TILDE	KeyComposition.java	/^    private static final String KEY_DEAD_TILDE = "\\u0303";$/;"	f	class:KeyComposition	file:
+KEY_DEAD_UMLAUT	KeyComposition.java	/^    private static final String KEY_DEAD_UMLAUT = "\\u0308";$/;"	f	class:KeyComposition	file:
+KeyComposition	KeyComposition.java	/^    private KeyComposition() {$/;"	m	class:KeyComposition	file:
+KeyComposition	KeyComposition.java	/^public final class KeyComposition {$/;"	c
+Level	Ln.java	/^    enum Level {$/;"	g	class:Ln
+Ln	Ln.java	/^    private Ln() {$/;"	m	class:Ln	file:
+Ln	Ln.java	/^public final class Ln {$/;"	c
+MICROSECONDS_IN_ONE_SECOND	ScreenEncoder.java	/^    private static final int MICROSECONDS_IN_ONE_SECOND = 1_000_000;$/;"	f	class:ScreenEncoder	file:
+MOUSE_PAYLOAD_LENGTH	ControlEventReader.java	/^    private static final int MOUSE_PAYLOAD_LENGTH = 13;$/;"	f	class:ControlEventReader	file:
+Options	Options.java	/^public class Options {$/;"	c
+Position	Position.java	/^    public Position(Point point, Size screenSize) {$/;"	m	class:Position
+Position	Position.java	/^    public Position(int x, int y, int screenWidth, int screenHeight) {$/;"	m	class:Position
+Position	Position.java	/^public class Position {$/;"	c
+PowerManager	wrappers/PowerManager.java	/^    public PowerManager(IInterface manager) {$/;"	m	class:PowerManager
+PowerManager	wrappers/PowerManager.java	/^public final class PowerManager {$/;"	c
+RAW_BUFFER_SIZE	ControlEventReader.java	/^    private static final int RAW_BUFFER_SIZE = 1024;$/;"	f	class:ControlEventReader	file:
+REPEAT_FRAME_DELAY	ScreenEncoder.java	/^    private static final int REPEAT_FRAME_DELAY = 6; \/\/ repeat after 6 frames$/;"	f	class:ScreenEncoder	file:
+RotationListener	Device.java	/^    public interface RotationListener {$/;"	i	class:Device
+SCROLL_PAYLOAD_LENGTH	ControlEventReader.java	/^    private static final int SCROLL_PAYLOAD_LENGTH = 16;$/;"	f	class:ControlEventReader	file:
+SOCKET_NAME	DesktopConnection.java	/^    private static final String SOCKET_NAME = "scrcpy";$/;"	f	class:DesktopConnection	file:
+ScreenEncoder	ScreenEncoder.java	/^    public ScreenEncoder(int bitRate) {$/;"	m	class:ScreenEncoder
+ScreenEncoder	ScreenEncoder.java	/^    public ScreenEncoder(int bitRate, int frameRate, int iFrameInterval) {$/;"	m	class:ScreenEncoder
+ScreenEncoder	ScreenEncoder.java	/^public class ScreenEncoder implements Device.RotationListener {$/;"	c
+ScreenInfo	ScreenInfo.java	/^    public ScreenInfo(Rect contentRect, Size videoSize, boolean rotated) {$/;"	m	class:ScreenInfo
+ScreenInfo	ScreenInfo.java	/^public final class ScreenInfo {$/;"	c
+Server	Server.java	/^    private Server() {$/;"	m	class:Server	file:
+Server	Server.java	/^public final class Server {$/;"	c
+ServiceManager	wrappers/ServiceManager.java	/^    public ServiceManager() {$/;"	m	class:ServiceManager
+ServiceManager	wrappers/ServiceManager.java	/^public final class ServiceManager {$/;"	c
+Size	Size.java	/^    public Size(int width, int height) {$/;"	m	class:Size
+Size	Size.java	/^public final class Size {$/;"	c
+SurfaceControl	wrappers/SurfaceControl.java	/^    private SurfaceControl() {$/;"	m	class:SurfaceControl	file:
+SurfaceControl	wrappers/SurfaceControl.java	/^public final class SurfaceControl {$/;"	c
+TAG	Ln.java	/^    private static final String TAG = "scrcpy";$/;"	f	class:Ln	file:
+TEXT_MAX_LENGTH	ControlEventReader.java	/^    public static final int TEXT_MAX_LENGTH = 300;$/;"	f	class:ControlEventReader
+THRESHOLD	Ln.java	/^    private static final Level THRESHOLD = BuildConfig.DEBUG ? Level.DEBUG : Level.INFO;$/;"	f	class:Ln	file:
+TYPE_COMMAND	ControlEvent.java	/^    public static final int TYPE_COMMAND = 4;$/;"	f	class:ControlEvent
+TYPE_KEYCODE	ControlEvent.java	/^    public static final int TYPE_KEYCODE = 0;$/;"	f	class:ControlEvent
+TYPE_MOUSE	ControlEvent.java	/^    public static final int TYPE_MOUSE = 2;$/;"	f	class:ControlEvent
+TYPE_SCROLL	ControlEvent.java	/^    public static final int TYPE_SCROLL = 3;$/;"	f	class:ControlEvent
+TYPE_TEXT	ControlEvent.java	/^    public static final int TYPE_TEXT = 1;$/;"	f	class:ControlEvent
+WARN	Ln.java	/^        WARN,$/;"	e	enum:Ln.Level	file:
+WindowManager	wrappers/WindowManager.java	/^    public WindowManager(IInterface manager) {$/;"	m	class:WindowManager
+WindowManager	wrappers/WindowManager.java	/^public final class WindowManager {$/;"	c
+action	ControlEvent.java	/^    private int action; \/\/ KeyEvent.ACTION_* or MotionEvent.ACTION_* or COMMAND_*$/;"	f	class:ControlEvent	file:
+acute	KeyComposition.java	/^    private static String acute(char c) {$/;"	m	class:KeyComposition	file:
+bitRate	Options.java	/^    private int bitRate;$/;"	f	class:Options	file:
+bitRate	ScreenEncoder.java	/^    private int bitRate;$/;"	f	class:ScreenEncoder	file:
+buffer	ControlEventReader.java	/^    private final ByteBuffer buffer = ByteBuffer.wrap(rawBuffer);$/;"	f	class:ControlEventReader	file:
+buttons	ControlEvent.java	/^    private int buttons; \/\/ MotionEvent.BUTTON_*$/;"	f	class:ControlEvent	file:
+charMap	EventController.java	/^    private final KeyCharacterMap charMap = KeyCharacterMap.load(KeyCharacterMap.VIRTUAL_KEYBOARD);$/;"	f	class:EventController	file:
+circumflex	KeyComposition.java	/^    private static String circumflex(char c) {$/;"	m	class:KeyComposition	file:
+close	DesktopConnection.java	/^    public void close() throws IOException {$/;"	m	class:DesktopConnection
+closeTransaction	wrappers/SurfaceControl.java	/^    public static void closeTransaction() {$/;"	m	class:SurfaceControl
+com.genymobile.scrcpy	ControlEvent.java	/^package com.genymobile.scrcpy;$/;"	p
+com.genymobile.scrcpy	ControlEventReader.java	/^package com.genymobile.scrcpy;$/;"	p
+com.genymobile.scrcpy	DesktopConnection.java	/^package com.genymobile.scrcpy;$/;"	p
+com.genymobile.scrcpy	Device.java	/^package com.genymobile.scrcpy;$/;"	p
+com.genymobile.scrcpy	DisplayInfo.java	/^package com.genymobile.scrcpy;$/;"	p
+com.genymobile.scrcpy	EventController.java	/^package com.genymobile.scrcpy;$/;"	p
+com.genymobile.scrcpy	IO.java	/^package com.genymobile.scrcpy;$/;"	p
+com.genymobile.scrcpy	KeyComposition.java	/^package com.genymobile.scrcpy;$/;"	p
+com.genymobile.scrcpy	Ln.java	/^package com.genymobile.scrcpy;$/;"	p
+com.genymobile.scrcpy	Options.java	/^package com.genymobile.scrcpy;$/;"	p
+com.genymobile.scrcpy	Position.java	/^package com.genymobile.scrcpy;$/;"	p
+com.genymobile.scrcpy	ScreenEncoder.java	/^package com.genymobile.scrcpy;$/;"	p
+com.genymobile.scrcpy	ScreenInfo.java	/^package com.genymobile.scrcpy;$/;"	p
+com.genymobile.scrcpy	Server.java	/^package com.genymobile.scrcpy;$/;"	p
+com.genymobile.scrcpy	Size.java	/^package com.genymobile.scrcpy;$/;"	p
+com.genymobile.scrcpy.wrappers	wrappers/DisplayManager.java	/^package com.genymobile.scrcpy.wrappers;$/;"	p
+com.genymobile.scrcpy.wrappers	wrappers/InputManager.java	/^package com.genymobile.scrcpy.wrappers;$/;"	p
+com.genymobile.scrcpy.wrappers	wrappers/PowerManager.java	/^package com.genymobile.scrcpy.wrappers;$/;"	p
+com.genymobile.scrcpy.wrappers	wrappers/ServiceManager.java	/^package com.genymobile.scrcpy.wrappers;$/;"	p
+com.genymobile.scrcpy.wrappers	wrappers/SurfaceControl.java	/^package com.genymobile.scrcpy.wrappers;$/;"	p
+com.genymobile.scrcpy.wrappers	wrappers/WindowManager.java	/^package com.genymobile.scrcpy.wrappers;$/;"	p
+computeScreenInfo	Device.java	/^    private ScreenInfo computeScreenInfo(Rect crop, int maxSize) {$/;"	m	class:Device	file:
+computeVideoSize	Device.java	/^    private static Size computeVideoSize(int w, int h, int maxSize) {$/;"	m	class:Device	file:
+configure	ScreenEncoder.java	/^    private static void configure(MediaCodec codec, MediaFormat format) {$/;"	m	class:ScreenEncoder	file:
+connect	DesktopConnection.java	/^    private static LocalSocket connect(String abstractName) throws IOException {$/;"	m	class:DesktopConnection	file:
+connection	EventController.java	/^    private final DesktopConnection connection;$/;"	f	class:EventController	file:
+consumeRotationChange	ScreenEncoder.java	/^    public boolean consumeRotationChange() {$/;"	m	class:ScreenEncoder
+contentRect	ScreenInfo.java	/^    private final Rect contentRect; \/\/ device size, possibly cropped$/;"	f	class:ScreenInfo	file:
+control	EventController.java	/^    public void control() throws IOException {$/;"	m	class:EventController
+createCodec	ScreenEncoder.java	/^    private static MediaCodec createCodec() throws IOException {$/;"	m	class:ScreenEncoder	file:
+createCommandControlEvent	ControlEvent.java	/^    public static ControlEvent createCommandControlEvent(int action) {$/;"	m	class:ControlEvent
+createDecompositionMap	KeyComposition.java	/^    private static Map<Character, String> createDecompositionMap() {$/;"	m	class:KeyComposition	file:
+createDisplay	ScreenEncoder.java	/^    private static IBinder createDisplay() {$/;"	m	class:ScreenEncoder	file:
+createDisplay	wrappers/SurfaceControl.java	/^    public static IBinder createDisplay(String name, boolean secure) {$/;"	m	class:SurfaceControl
+createFormat	ScreenEncoder.java	/^    private static MediaFormat createFormat(int bitRate, int frameRate, int iFrameInterval) throws IOException {$/;"	m	class:ScreenEncoder	file:
+createKeycodeControlEvent	ControlEvent.java	/^    public static ControlEvent createKeycodeControlEvent(int action, int keycode, int metaState) {$/;"	m	class:ControlEvent
+createMotionControlEvent	ControlEvent.java	/^    public static ControlEvent createMotionControlEvent(int action, int buttons, Position position) {$/;"	m	class:ControlEvent
+createOptions	Server.java	/^    private static Options createOptions(String... args) {$/;"	m	class:Server	file:
+createScrollControlEvent	ControlEvent.java	/^    public static ControlEvent createScrollControlEvent(Position position, int hScroll, int vScroll) {$/;"	m	class:ControlEvent
+createTextControlEvent	ControlEvent.java	/^    public static ControlEvent createTextControlEvent(String text) {$/;"	m	class:ControlEvent
+crop	Options.java	/^    private Rect crop;$/;"	f	class:Options	file:
+d	Ln.java	/^    public static void d(String message) {$/;"	m	class:Ln
+decompose	KeyComposition.java	/^    public static String decompose(char c) {$/;"	m	class:KeyComposition
+destroyDisplay	ScreenEncoder.java	/^    private static void destroyDisplay(IBinder display) {$/;"	m	class:ScreenEncoder	file:
+destroyDisplay	wrappers/SurfaceControl.java	/^    public static void destroyDisplay(IBinder displayToken) {$/;"	m	class:SurfaceControl
+device	EventController.java	/^    private final Device device;$/;"	f	class:EventController	file:
+displayManager	wrappers/ServiceManager.java	/^    private DisplayManager displayManager;$/;"	f	class:ServiceManager	file:
+e	Ln.java	/^    public static void e(String message, Throwable throwable) {$/;"	m	class:Ln
+encode	ScreenEncoder.java	/^    private boolean encode(MediaCodec codec, FileDescriptor fd) throws IOException {$/;"	m	class:ScreenEncoder	file:
+equals	Position.java	/^    public boolean equals(Object o) {$/;"	m	class:Position
+equals	Size.java	/^    public boolean equals(Object o) {$/;"	m	class:Size
+executeCommand	EventController.java	/^    private boolean executeCommand(int action) {$/;"	m	class:EventController	file:
+fd	DesktopConnection.java	/^    private final FileDescriptor fd;$/;"	f	class:DesktopConnection	file:
+flipRect	Device.java	/^    static Rect flipRect(Rect crop) {$/;"	m	class:Device
+formatCrop	Device.java	/^    private static String formatCrop(Rect rect) {$/;"	m	class:Device	file:
+frameRate	ScreenEncoder.java	/^    private int frameRate;$/;"	f	class:ScreenEncoder	file:
+getAction	ControlEvent.java	/^    public int getAction() {$/;"	m	class:ControlEvent
+getBitRate	Options.java	/^    public int getBitRate() {$/;"	m	class:Options
+getButtons	ControlEvent.java	/^    public int getButtons() {$/;"	m	class:ControlEvent
+getContentRect	ScreenInfo.java	/^    public Rect getContentRect() {$/;"	m	class:ScreenInfo
+getCrop	Options.java	/^    public Rect getCrop() {$/;"	m	class:Options
+getDeviceName	Device.java	/^    public static String getDeviceName() {$/;"	m	class:Device
+getDisplayInfo	wrappers/DisplayManager.java	/^    public DisplayInfo getDisplayInfo() {$/;"	m	class:DisplayManager
+getDisplayManager	wrappers/ServiceManager.java	/^    public DisplayManager getDisplayManager() {$/;"	m	class:ServiceManager
+getFd	DesktopConnection.java	/^    public FileDescriptor getFd() {$/;"	m	class:DesktopConnection
+getHScroll	ControlEvent.java	/^    public int getHScroll() {$/;"	m	class:ControlEvent
+getHeight	Size.java	/^    public int getHeight() {$/;"	m	class:Size
+getInputManager	wrappers/ServiceManager.java	/^    public InputManager getInputManager() {$/;"	m	class:ServiceManager
+getKeycode	ControlEvent.java	/^    public int getKeycode() {$/;"	m	class:ControlEvent
+getMaxSize	Options.java	/^    public int getMaxSize() {$/;"	m	class:Options
+getMetaState	ControlEvent.java	/^    public int getMetaState() {$/;"	m	class:ControlEvent
+getPhysicalPoint	Device.java	/^    public Point getPhysicalPoint(Position position) {$/;"	m	class:Device
+getPoint	Position.java	/^    public Point getPoint() {$/;"	m	class:Position
+getPosition	ControlEvent.java	/^    public Position getPosition() {$/;"	m	class:ControlEvent
+getPowerManager	wrappers/ServiceManager.java	/^    public PowerManager getPowerManager() {$/;"	m	class:ServiceManager
+getRotation	DisplayInfo.java	/^    public int getRotation() {$/;"	m	class:DisplayInfo
+getRotation	wrappers/WindowManager.java	/^    public int getRotation() {$/;"	m	class:WindowManager
+getScreenInfo	Device.java	/^    public synchronized ScreenInfo getScreenInfo() {$/;"	m	class:Device
+getScreenSize	Position.java	/^    public Size getScreenSize() {$/;"	m	class:Position
+getService	wrappers/ServiceManager.java	/^    private IInterface getService(String service, String type) {$/;"	m	class:ServiceManager	file:
+getServiceMethod	wrappers/ServiceManager.java	/^    private final Method getServiceMethod;$/;"	f	class:ServiceManager	file:
+getSize	DisplayInfo.java	/^    public Size getSize() {$/;"	m	class:DisplayInfo
+getText	ControlEvent.java	/^    public String getText() {$/;"	m	class:ControlEvent
+getType	ControlEvent.java	/^    public int getType() {$/;"	m	class:ControlEvent
+getVScroll	ControlEvent.java	/^    public int getVScroll() {$/;"	m	class:ControlEvent
+getVideoSize	ScreenInfo.java	/^    public Size getVideoSize() {$/;"	m	class:ScreenInfo
+getWidth	Size.java	/^    public int getWidth() {$/;"	m	class:Size
+getWindowManager	wrappers/ServiceManager.java	/^    public WindowManager getWindowManager() {$/;"	m	class:ServiceManager
+grave	KeyComposition.java	/^    private static String grave(char c) {$/;"	m	class:KeyComposition	file:
+hScroll	ControlEvent.java	/^    private int hScroll;$/;"	f	class:ControlEvent	file:
+handleEvent	EventController.java	/^    private void handleEvent() throws IOException {$/;"	m	class:EventController	file:
+hashCode	Position.java	/^    public int hashCode() {$/;"	m	class:Position
+hashCode	Size.java	/^    public int hashCode() {$/;"	m	class:Size
+height	Size.java	/^    private final int height;$/;"	f	class:Size	file:
+i	Ln.java	/^    public static void i(String message) {$/;"	m	class:Ln
+iFrameInterval	ScreenEncoder.java	/^    private int iFrameInterval;$/;"	f	class:ScreenEncoder	file:
+initPointer	EventController.java	/^    private void initPointer() {$/;"	m	class:EventController	file:
+injectChar	EventController.java	/^    private boolean injectChar(char c) {$/;"	m	class:EventController	file:
+injectEvent	EventController.java	/^    private boolean injectEvent(InputEvent event) {$/;"	m	class:EventController	file:
+injectInputEvent	Device.java	/^    public boolean injectInputEvent(InputEvent inputEvent, int mode) {$/;"	m	class:Device
+injectInputEvent	wrappers/InputManager.java	/^    public boolean injectInputEvent(InputEvent inputEvent, int mode) {$/;"	m	class:InputManager
+injectInputEventMethod	wrappers/InputManager.java	/^    private final Method injectInputEventMethod;$/;"	f	class:InputManager	file:
+injectKeyEvent	EventController.java	/^    private boolean injectKeyEvent(int action, int keyCode, int repeat, int metaState) {$/;"	m	class:EventController	file:
+injectKeycode	EventController.java	/^    private boolean injectKeycode(int action, int keycode, int metaState) {$/;"	m	class:EventController	file:
+injectKeycode	EventController.java	/^    private boolean injectKeycode(int keyCode) {$/;"	m	class:EventController	file:
+injectMouse	EventController.java	/^    private boolean injectMouse(int action, int buttons, Position position) {$/;"	m	class:EventController	file:
+injectScroll	EventController.java	/^    private boolean injectScroll(Position position, int hScroll, int vScroll) {$/;"	m	class:EventController	file:
+injectText	EventController.java	/^    private boolean injectText(String text) {$/;"	m	class:EventController	file:
+inputManager	wrappers/ServiceManager.java	/^    private InputManager inputManager;$/;"	f	class:ServiceManager	file:
+inputStream	DesktopConnection.java	/^    private final InputStream inputStream;$/;"	f	class:DesktopConnection	file:
+isEnabled	Ln.java	/^    public static boolean isEnabled(Level level) {$/;"	m	class:Ln
+isFull	ControlEventReader.java	/^    public boolean isFull() {$/;"	m	class:ControlEventReader
+isScreenOn	Device.java	/^    public boolean isScreenOn() {$/;"	m	class:Device
+isScreenOn	wrappers/PowerManager.java	/^    public boolean isScreenOn() {$/;"	m	class:PowerManager
+isScreenOnMethod	wrappers/PowerManager.java	/^    private final Method isScreenOnMethod;$/;"	f	class:PowerManager	file:
+isTunnelForward	Options.java	/^    public boolean isTunnelForward() {$/;"	m	class:Options
+keycode	ControlEvent.java	/^    private int keycode; \/\/ KeyEvent.KEYCODE_*$/;"	f	class:ControlEvent	file:
+lastMouseDown	EventController.java	/^    private long lastMouseDown;$/;"	f	class:EventController	file:
+listenAndAccept	DesktopConnection.java	/^    private static LocalSocket listenAndAccept(String abstractName) throws IOException {$/;"	m	class:DesktopConnection	file:
+main	Server.java	/^    public static void main(String... args) throws Exception {$/;"	m	class:Server
+manager	wrappers/DisplayManager.java	/^    private final IInterface manager;$/;"	f	class:DisplayManager	file:
+manager	wrappers/InputManager.java	/^    private final IInterface manager;$/;"	f	class:InputManager	file:
+manager	wrappers/PowerManager.java	/^    private final IInterface manager;$/;"	f	class:PowerManager	file:
+manager	wrappers/WindowManager.java	/^    private final IInterface manager;$/;"	f	class:WindowManager	file:
+maxSize	Options.java	/^    private int maxSize;$/;"	f	class:Options	file:
+metaState	ControlEvent.java	/^    private int metaState; \/\/ KeyEvent.META_*$/;"	f	class:ControlEvent	file:
+next	ControlEventReader.java	/^    public ControlEvent next() {$/;"	m	class:ControlEventReader
+onRotationChanged	Device.java	/^        void onRotationChanged(int rotation);$/;"	m	interface:Device.RotationListener
+onRotationChanged	ScreenEncoder.java	/^    public void onRotationChanged(int rotation) {$/;"	m	class:ScreenEncoder
+open	DesktopConnection.java	/^    public static DesktopConnection open(Device device, boolean tunnelForward) throws IOException {$/;"	m	class:DesktopConnection
+openTransaction	wrappers/SurfaceControl.java	/^    public static void openTransaction() {$/;"	m	class:SurfaceControl
+parseCommandControlEvent	ControlEventReader.java	/^    private ControlEvent parseCommandControlEvent() {$/;"	m	class:ControlEventReader	file:
+parseCrop	Server.java	/^    private static Rect parseCrop(String crop) {$/;"	m	class:Server	file:
+parseKeycodeControlEvent	ControlEventReader.java	/^    private ControlEvent parseKeycodeControlEvent() {$/;"	m	class:ControlEventReader	file:
+parseMouseControlEvent	ControlEventReader.java	/^    private ControlEvent parseMouseControlEvent() {$/;"	m	class:ControlEventReader	file:
+parseScrollControlEvent	ControlEventReader.java	/^    private ControlEvent parseScrollControlEvent() {$/;"	m	class:ControlEventReader	file:
+parseTextControlEvent	ControlEventReader.java	/^    private ControlEvent parseTextControlEvent() {$/;"	m	class:ControlEventReader	file:
+point	Position.java	/^    private Point point;$/;"	f	class:Position	file:
+pointerCoords	EventController.java	/^    private final MotionEvent.PointerCoords[] pointerCoords = {new MotionEvent.PointerCoords()};$/;"	f	class:EventController	file:
+pointerProperties	EventController.java	/^    private final MotionEvent.PointerProperties[] pointerProperties = {new MotionEvent.PointerProperties()};$/;"	f	class:EventController	file:
+position	ControlEvent.java	/^    private Position position;$/;"	f	class:ControlEvent	file:
+powerManager	wrappers/ServiceManager.java	/^    private PowerManager powerManager;$/;"	f	class:ServiceManager	file:
+pressBackOrTurnScreenOn	EventController.java	/^    private boolean pressBackOrTurnScreenOn() {$/;"	m	class:EventController	file:
+rawBuffer	ControlEventReader.java	/^    private final byte[] rawBuffer = new byte[RAW_BUFFER_SIZE];$/;"	f	class:ControlEventReader	file:
+readFrom	ControlEventReader.java	/^    public void readFrom(InputStream input) throws IOException {$/;"	m	class:ControlEventReader
+readPosition	ControlEventReader.java	/^    private static Position readPosition(ByteBuffer buffer) {$/;"	m	class:ControlEventReader	file:
+reader	DesktopConnection.java	/^    private final ControlEventReader reader = new ControlEventReader();$/;"	f	class:DesktopConnection	file:
+receiveControlEvent	DesktopConnection.java	/^    public ControlEvent receiveControlEvent() throws IOException {$/;"	m	class:DesktopConnection
+registerRotationWatcher	Device.java	/^    public void registerRotationWatcher(IRotationWatcher rotationWatcher) {$/;"	m	class:Device
+registerRotationWatcher	wrappers/WindowManager.java	/^    public void registerRotationWatcher(IRotationWatcher rotationWatcher) {$/;"	m	class:WindowManager
+rotate	Size.java	/^    public Size rotate() {$/;"	m	class:Size
+rotated	ScreenInfo.java	/^    private final boolean rotated;$/;"	f	class:ScreenInfo	file:
+rotation	DisplayInfo.java	/^    private final int rotation;$/;"	f	class:DisplayInfo	file:
+rotationChanged	ScreenEncoder.java	/^    private final AtomicBoolean rotationChanged = new AtomicBoolean();$/;"	f	class:ScreenEncoder	file:
+rotationListener	Device.java	/^    private RotationListener rotationListener;$/;"	f	class:Device	file:
+scrcpy	Server.java	/^    private static void scrcpy(Options options) throws IOException {$/;"	m	class:Server	file:
+screenInfo	Device.java	/^    private ScreenInfo screenInfo;$/;"	f	class:Device	file:
+screenSize	Position.java	/^    private Size screenSize;$/;"	f	class:Position	file:
+send	DesktopConnection.java	/^    private void send(String deviceName, int width, int height) throws IOException {$/;"	m	class:DesktopConnection	file:
+serviceManager	Device.java	/^    private final ServiceManager serviceManager = new ServiceManager();$/;"	f	class:Device	file:
+setBitRate	Options.java	/^    public void setBitRate(int bitRate) {$/;"	m	class:Options
+setCrop	Options.java	/^    public void setCrop(Rect crop) {$/;"	m	class:Options
+setDisplayLayerStack	wrappers/SurfaceControl.java	/^    public static void setDisplayLayerStack(IBinder displayToken, int layerStack) {$/;"	m	class:SurfaceControl
+setDisplayProjection	wrappers/SurfaceControl.java	/^    public static void setDisplayProjection(IBinder displayToken, int orientation, Rect layerStackRect, Rect displayRect) {$/;"	m	class:SurfaceControl
+setDisplaySurface	ScreenEncoder.java	/^    private static void setDisplaySurface(IBinder display, Surface surface, Rect deviceRect, Rect displayRect) {$/;"	m	class:ScreenEncoder	file:
+setDisplaySurface	wrappers/SurfaceControl.java	/^    public static void setDisplaySurface(IBinder displayToken, Surface surface) {$/;"	m	class:SurfaceControl
+setMaxSize	Options.java	/^    public void setMaxSize(int maxSize) {$/;"	m	class:Options
+setPointerCoords	EventController.java	/^    private void setPointerCoords(Point point) {$/;"	m	class:EventController	file:
+setRotationListener	Device.java	/^    public synchronized void setRotationListener(RotationListener rotationListener) {$/;"	m	class:Device
+setScroll	EventController.java	/^    private void setScroll(int hScroll, int vScroll) {$/;"	m	class:EventController	file:
+setSize	ScreenEncoder.java	/^    private static void setSize(MediaFormat format, int width, int height) {$/;"	m	class:ScreenEncoder	file:
+setTunnelForward	Options.java	/^    public void setTunnelForward(boolean tunnelForward) {$/;"	m	class:Options
+size	DisplayInfo.java	/^    private final Size size;$/;"	f	class:DisplayInfo	file:
+socket	DesktopConnection.java	/^    private final LocalSocket socket;$/;"	f	class:DesktopConnection	file:
+startEventController	Server.java	/^    private static void startEventController(final Device device, final DesktopConnection connection) {$/;"	m	class:Server	file:
+streamScreen	ScreenEncoder.java	/^    public void streamScreen(Device device, FileDescriptor fd) throws IOException {$/;"	m	class:ScreenEncoder
+text	ControlEvent.java	/^    private String text;$/;"	f	class:ControlEvent	file:
+textBuffer	ControlEventReader.java	/^    private final byte[] textBuffer = new byte[TEXT_MAX_LENGTH];$/;"	f	class:ControlEventReader	file:
+tilde	KeyComposition.java	/^    private static String tilde(char c) {$/;"	m	class:KeyComposition	file:
+toRect	Size.java	/^    public Rect toRect() {$/;"	m	class:Size
+toString	Position.java	/^    public String toString() {$/;"	m	class:Position
+toString	Size.java	/^    public String toString() {$/;"	m	class:Size
+toUnsigned	ControlEventReader.java	/^    private static int toUnsigned(byte value) {$/;"	m	class:ControlEventReader	file:
+toUnsigned	ControlEventReader.java	/^    private static int toUnsigned(short value) {$/;"	m	class:ControlEventReader	file:
+tunnelForward	Options.java	/^    private boolean tunnelForward;$/;"	f	class:Options	file:
+turnScreenOn	EventController.java	/^    private boolean turnScreenOn() {$/;"	m	class:EventController	file:
+type	ControlEvent.java	/^    private int type;$/;"	f	class:ControlEvent	file:
+umlaut	KeyComposition.java	/^    private static String umlaut(char c) {$/;"	m	class:KeyComposition	file:
+vScroll	ControlEvent.java	/^    private int vScroll;$/;"	f	class:ControlEvent	file:
+videoSize	ScreenInfo.java	/^    private final Size videoSize;$/;"	f	class:ScreenInfo	file:
+w	Ln.java	/^    public static void w(String message) {$/;"	m	class:Ln
+width	Size.java	/^    private final int width;$/;"	f	class:Size	file:
+windowManager	wrappers/ServiceManager.java	/^    private WindowManager windowManager;$/;"	f	class:ServiceManager	file:
+withRotation	ScreenInfo.java	/^    public ScreenInfo withRotation(int rotation) {$/;"	m	class:ScreenInfo
+writeFully	IO.java	/^    public static void writeFully(FileDescriptor fd, ByteBuffer from) throws IOException {$/;"	m	class:IO
+writeFully	IO.java	/^    public static void writeFully(FileDescriptor fd, byte[] buffer, int offset, int len) throws IOException {$/;"	m	class:IO

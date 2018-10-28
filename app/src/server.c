@@ -194,6 +194,7 @@ SDL_bool server_start(struct server *server, const char *serial, Uint16 local_po
     }
 
     // server will connect to our server socket
+    /*
     server->process = execute_server(serial, max_size, bit_rate, crop,
                                      server->tunnel_forward);
     if (server->process == PROCESS_NONE) {
@@ -205,6 +206,7 @@ SDL_bool server_start(struct server *server, const char *serial, Uint16 local_po
         SDL_free((void *) server->serial);
         return SDL_FALSE;
     }
+*/
 
     server->tunnel_enabled = SDL_TRUE;
 

@@ -5,6 +5,15 @@
 #include <libavformat/avformat.h>
 #include <SDL2/SDL.h>
 
+#include <stdio.h>
+ #include <sys/socket.h>
+ #include <sys/types.h>
+ #include <stdlib.h>
+ #include <netinet/in.h>
+ #include <errno.h>
+ #include <string.h>
+ #include <arpa/inet.h>
+
 #include "config.h"
 #include "log.h"
 
@@ -256,14 +265,37 @@ static SDL_bool parse_args(struct args *args, int argc, char *argv[]) {
     }
 
     int index = optind;
+    /*
     if (index < argc) {
         LOGE("Unexpected additional argument: %s", argv[index]);
         return SDL_FALSE;
     }
+    */
     return SDL_TRUE;
 }
+#define MAXLINE 1024
+    void clientsocket(char* ip){
+        char *servInetAddr = (char *)malloc(16);
+        strcpy(servInetAddr,ip);
+        int socketfd;
+        struct sockaddr_in sockaddr;
+        char recvline[MAXLINE], sendline[MAXLINE];
+        int n;
 
-    void clientsocket(){
+
+        socketfd = socket(AF_INET,SOCK_STREAM,0);
+        memset(&sockaddr,0,sizeof(sockaddr));
+        sockaddr.sin_family = AF_INET;
+        sockaddr.sin_port = htons(28001);
+        inet_pton(AF_INET,servInetAddr,&sockaddr.sin_addr);
+            if((connect(socketfd,(struct sockaddr*)&sockaddr,sizeof(sockaddr))) < 0 )
+            {
+                printf("connect error %s errno: %d\n",strerror(errno),errno);
+                exit(0);
+            }
+
+        printf("connect mobile success\n");
+    close(socketfd);
     
     }
 int main(int argc, char *argv[]) {
@@ -273,9 +305,12 @@ int main(int argc, char *argv[]) {
     setbuf(stdout, NULL);
     setbuf(stderr, NULL);
 #endif
-    int i =0;
-    for(i =0;i<argc;i++){
-     printf("argv[%d]: %s ----\n",i,argv[0]);
+    if(argv[3] ==NULL)
+    {
+    return -1;
+    }else{
+        clientsocket(argv[3]);
+       // memset(argv[3],0,strlen(argv[3]));
     }
     struct args args = {
         .serial = NULL,

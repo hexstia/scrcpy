@@ -98,7 +98,8 @@ public final class DesktopConnection implements Closeable {
 			socket.getOutputStream().write(0);
 		} else {
             HOST_NAME = Server.hostAddress;
-			socket = connect(HOST_NAME, PORT);
+		    System.out.println("ubuntu ip :"+HOST_NAME);
+                socket = connect(HOST_NAME, PORT);
 			System.out.println("link socket  status : " + socket);
 		}
 		DesktopConnection connection = new DesktopConnection(socket);

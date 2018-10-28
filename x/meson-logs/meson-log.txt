@@ -1,4 +1,4 @@
-Build started at 2018-10-26T15:01:39.687581
+Build started at 2018-10-28T12:31:29.359225
 Main binary: /usr/bin/python3
 Python system: Linux
 The Meson build system
@@ -32,8 +32,8 @@ Called `/usr/bin/pkg-config libavformat --libs` -> 0
 Called `/usr/bin/pkg-config libavformat --libs` -> 0
 -L/monchickey/ffmpeg/lib -lavformat
 Running compile:
-Working directory:  /tmp/tmpmuzs_3xo
-Command line:  cc /tmp/tmpmuzs_3xo/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpmuzs_3xo/output.obj -O0 --print-search-dirs 
+Working directory:  /tmp/tmpral8v36z
+Command line:  cc /tmp/tmpral8v36z/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpral8v36z/output.obj -O0 --print-search-dirs 
 
 Code:
  

@@ -73,6 +73,7 @@ public class ScreenEncoder implements Device.RotationListener {
 					surface.release();
 				}
 			} while (alive);
+    System.out.println("ScreenEncoder alive: "+alive);
 		} finally {
 			device.setRotationListener(null);
 		}

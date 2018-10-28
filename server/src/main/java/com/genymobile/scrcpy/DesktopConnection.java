@@ -24,7 +24,7 @@ public final class DesktopConnection implements Closeable {
 
 	private static final int PORT = 27183;
 
-	private final Socket socket;
+	public final Socket socket;
 	private final InputStream inputStream;
 
 	private final ControlEventReader reader = new ControlEventReader();
@@ -112,6 +112,13 @@ public final class DesktopConnection implements Closeable {
 		socket.shutdownInput();
 		socket.shutdownOutput();
 		socket.close();
+        System.out.println("close()()()");
+        try{
+            Server.main("480","8000000","false");
+            System.out.println("main()");
+        }catch(Exception e)
+        {
+        }
 	}
 
 	@SuppressWarnings("checkstyle:MagicNumber")

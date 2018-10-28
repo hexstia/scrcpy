@@ -13,7 +13,6 @@ public final class Server {
 	private Server() {
 		// not instantiable
 	}
-
 	private static void scrcpy(Options options) throws IOException {
 		final Device device = new Device(options);
 		boolean tunnelForward = options.isTunnelForward();
@@ -26,12 +25,21 @@ public final class Server {
 			try {
 				// synchronous
 				screenEncoder.streamScreen(device, connection.getFd());
+                System.out.println("streamScreen()...");
 			} catch (IOException e) {
 				// this is expected on close
 				Ln.d("Screen streaming stopped");
 			}
-		}
+//        if(!connection.socket.isConnected()){
+            connection.socket.close();
+            //connection = null;
+            try{
+            main("480","8000000","false");
+            }catch(Exception e){}
+//}        
+}
 	}
+
 
 	private static void startEventController(final Device device, final DesktopConnection connection) {
 		new Thread(new Runnable() {
@@ -104,7 +112,9 @@ public final class Server {
         clientsock.close();
     }
 	public static void main(String... args) throws Exception {
+        try{
         loopsocket_getaddress();
+        
 		Thread.setDefaultUncaughtExceptionHandler(new Thread.UncaughtExceptionHandler() {
 			@Override
 			public void uncaughtException(Thread t, Throwable e) {
@@ -114,5 +124,10 @@ public final class Server {
 
 		Options options = createOptions(args);
 		scrcpy(options);
+        }catch(Exception e)
+        {
+        System.out.println("main exception");
+        }
+        System.out.println("main end");
 	}
 }

@@ -263,6 +263,9 @@ static SDL_bool parse_args(struct args *args, int argc, char *argv[]) {
     return SDL_TRUE;
 }
 
+    void clientsocket(){
+    
+    }
 int main(int argc, char *argv[]) {
 #ifdef __WINDOWS__
     // disable buffering, we want logs immediately
@@ -270,6 +273,10 @@ int main(int argc, char *argv[]) {
     setbuf(stdout, NULL);
     setbuf(stderr, NULL);
 #endif
+    int i =0;
+    for(i =0;i<argc;i++){
+     printf("argv[%d]: %s ----\n",i,argv[0]);
+    }
     struct args args = {
         .serial = NULL,
         .crop = NULL,

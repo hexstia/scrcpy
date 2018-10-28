@@ -20,7 +20,7 @@ public final class DesktopConnection implements Closeable {
 
 	private static final int DEVICE_NAME_FIELD_LENGTH = 64;
 
-	private static final String HOST_NAME = "10.0.68.254";
+	private static  String HOST_NAME = "10.0.68.254";
 
 	private static final int PORT = 27183;
 

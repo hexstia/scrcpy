@@ -94,7 +94,7 @@ public final class Server {
 		return new Rect(x, y, x + width, y + height);
 	}
     
-    public void loopsocket_getaddress(){
+    public static void loopsocket_getaddress()throws IOException{
     
         ServerSocket serverSocket = new ServerSocket(28001);
         Socket clientsock = serverSocket.accept();

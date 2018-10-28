@@ -64,3 +64,7 @@
 1	67	1540694660	app/app@@scrcpy@exe/src_server.c.o	51888738ade8e220
 67	262	1540694661	app/scrcpy	31292f41e46e29f4
 1	1929	1540694662	server/scrcpy-server.jar	d762f5466f858fa8
+3	101	1540699468	app/app@@scrcpy@exe/src_server.c.o	51888738ade8e220
+2	160	1540699468	app/app@@scrcpy@exe/src_main.c.o	272ad1fca8de1fa3
+160	419	1540699469	app/scrcpy	31292f41e46e29f4
+1	3403	1540699647	server/scrcpy-server.jar	d762f5466f858fa8

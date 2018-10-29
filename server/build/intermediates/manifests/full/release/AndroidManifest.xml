@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- not a real Android application, it is run by app_process manually -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.genymobile.scrcpy"
+    android:versionCode="5"
+    android:versionName="1.4" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

@@ -62,122 +62,122 @@ build PHONY: phony
 
 build app/app@@scrcpy@exe/src_main.c.o: c_COMPILER ../app/src/main.c
  DEPFILE = app/app@@scrcpy@exe/src_main.c.o.d
- ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/app@@scrcpy@exe/src_command.c.o: c_COMPILER ../app/src/command.c
  DEPFILE = app/app@@scrcpy@exe/src_command.c.o.d
- ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/app@@scrcpy@exe/src_control_event.c.o: c_COMPILER ../app/src/control_event.c
  DEPFILE = app/app@@scrcpy@exe/src_control_event.c.o.d
- ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/app@@scrcpy@exe/src_controller.c.o: c_COMPILER ../app/src/controller.c
  DEPFILE = app/app@@scrcpy@exe/src_controller.c.o.d
- ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/app@@scrcpy@exe/src_convert.c.o: c_COMPILER ../app/src/convert.c
  DEPFILE = app/app@@scrcpy@exe/src_convert.c.o.d
- ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/app@@scrcpy@exe/src_decoder.c.o: c_COMPILER ../app/src/decoder.c
  DEPFILE = app/app@@scrcpy@exe/src_decoder.c.o.d
- ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/app@@scrcpy@exe/src_device.c.o: c_COMPILER ../app/src/device.c
  DEPFILE = app/app@@scrcpy@exe/src_device.c.o.d
- ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/app@@scrcpy@exe/src_file_handler.c.o: c_COMPILER ../app/src/file_handler.c
  DEPFILE = app/app@@scrcpy@exe/src_file_handler.c.o.d
- ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/app@@scrcpy@exe/src_fps_counter.c.o: c_COMPILER ../app/src/fps_counter.c
  DEPFILE = app/app@@scrcpy@exe/src_fps_counter.c.o.d
- ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/app@@scrcpy@exe/src_frames.c.o: c_COMPILER ../app/src/frames.c
  DEPFILE = app/app@@scrcpy@exe/src_frames.c.o.d
- ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/app@@scrcpy@exe/src_input_manager.c.o: c_COMPILER ../app/src/input_manager.c
  DEPFILE = app/app@@scrcpy@exe/src_input_manager.c.o.d
- ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/app@@scrcpy@exe/src_lock_util.c.o: c_COMPILER ../app/src/lock_util.c
  DEPFILE = app/app@@scrcpy@exe/src_lock_util.c.o.d
- ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/app@@scrcpy@exe/src_net.c.o: c_COMPILER ../app/src/net.c
  DEPFILE = app/app@@scrcpy@exe/src_net.c.o.d
- ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/app@@scrcpy@exe/src_scrcpy.c.o: c_COMPILER ../app/src/scrcpy.c
  DEPFILE = app/app@@scrcpy@exe/src_scrcpy.c.o.d
- ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/app@@scrcpy@exe/src_screen.c.o: c_COMPILER ../app/src/screen.c
  DEPFILE = app/app@@scrcpy@exe/src_screen.c.o.d
- ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/app@@scrcpy@exe/src_server.c.o: c_COMPILER ../app/src/server.c
  DEPFILE = app/app@@scrcpy@exe/src_server.c.o.d
- ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/app@@scrcpy@exe/src_str_util.c.o: c_COMPILER ../app/src/str_util.c
  DEPFILE = app/app@@scrcpy@exe/src_str_util.c.o.d
- ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/app@@scrcpy@exe/src_tiny_xpm.c.o: c_COMPILER ../app/src/tiny_xpm.c
  DEPFILE = app/app@@scrcpy@exe/src_tiny_xpm.c.o.d
- ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/app@@scrcpy@exe/src_sys_unix_command.c.o: c_COMPILER ../app/src/sys/unix/command.c
  DEPFILE = app/app@@scrcpy@exe/src_sys_unix_command.c.o.d
- ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/app@@scrcpy@exe/src_sys_unix_net.c.o: c_COMPILER ../app/src/sys/unix/net.c
  DEPFILE = app/app@@scrcpy@exe/src_sys_unix_net.c.o.d
- ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@scrcpy@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/scrcpy: c_LINKER app/app@@scrcpy@exe/src_main.c.o app/app@@scrcpy@exe/src_command.c.o app/app@@scrcpy@exe/src_control_event.c.o app/app@@scrcpy@exe/src_controller.c.o app/app@@scrcpy@exe/src_convert.c.o app/app@@scrcpy@exe/src_decoder.c.o app/app@@scrcpy@exe/src_device.c.o app/app@@scrcpy@exe/src_file_handler.c.o app/app@@scrcpy@exe/src_fps_counter.c.o app/app@@scrcpy@exe/src_frames.c.o app/app@@scrcpy@exe/src_input_manager.c.o app/app@@scrcpy@exe/src_lock_util.c.o app/app@@scrcpy@exe/src_net.c.o app/app@@scrcpy@exe/src_scrcpy.c.o app/app@@scrcpy@exe/src_screen.c.o app/app@@scrcpy@exe/src_server.c.o app/app@@scrcpy@exe/src_str_util.c.o app/app@@scrcpy@exe/src_tiny_xpm.c.o app/app@@scrcpy@exe/src_sys_unix_command.c.o app/app@@scrcpy@exe/src_sys_unix_net.c.o | /monchickey/ffmpeg/lib/libavformat.so /monchickey/ffmpeg/lib/libavcodec.so /monchickey/ffmpeg/lib/libavutil.so /usr/local/lib/libSDL2.so
- LINK_ARGS = -flto -Wl,--no-undefined -Wl,--as-needed -Wl,-O1 -Wl,--start-group /monchickey/ffmpeg/lib/libavformat.so /monchickey/ffmpeg/lib/libavcodec.so /monchickey/ffmpeg/lib/libavutil.so -Wl,-rpath,/usr/local/lib -Wl,--enable-new-dtags /usr/local/lib/libSDL2.so -Wl,--end-group '-Wl,-rpath,$$ORIGIN/../../../../../../../monchickey/ffmpeg/lib' -Wl,-rpath-link,/monchickey/ffmpeg/lib
+ LINK_ARGS = -flto -Wl,--no-undefined -Wl,--as-needed -Wl,-O1 -Wl,--start-group /monchickey/ffmpeg/lib/libavformat.so /monchickey/ffmpeg/lib/libavcodec.so /monchickey/ffmpeg/lib/libavutil.so -Wl,-rpath,/usr/local/lib -Wl,--enable-new-dtags /usr/local/lib/libSDL2.so -Wl,--end-group -pthread '-Wl,-rpath,$$ORIGIN/../../../../../../../monchickey/ffmpeg/lib' -Wl,-rpath-link,/monchickey/ffmpeg/lib
 
 build app/app@@test_control_event_queue@exe/tests_test_control_event_queue.c.o: c_COMPILER ../app/tests/test_control_event_queue.c
  DEPFILE = app/app@@test_control_event_queue@exe/tests_test_control_event_queue.c.o.d
- ARGS = -Iapp/app@@test_control_event_queue@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@test_control_event_queue@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/app@@test_control_event_queue@exe/src_control_event.c.o: c_COMPILER ../app/src/control_event.c
  DEPFILE = app/app@@test_control_event_queue@exe/src_control_event.c.o.d
- ARGS = -Iapp/app@@test_control_event_queue@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@test_control_event_queue@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/test_control_event_queue: c_LINKER app/app@@test_control_event_queue@exe/tests_test_control_event_queue.c.o app/app@@test_control_event_queue@exe/src_control_event.c.o | /monchickey/ffmpeg/lib/libavformat.so /monchickey/ffmpeg/lib/libavcodec.so /monchickey/ffmpeg/lib/libavutil.so /usr/local/lib/libSDL2.so
- LINK_ARGS = -flto -Wl,--no-undefined -Wl,--as-needed -Wl,-O1 -Wl,--start-group /monchickey/ffmpeg/lib/libavformat.so /monchickey/ffmpeg/lib/libavcodec.so /monchickey/ffmpeg/lib/libavutil.so -Wl,-rpath,/usr/local/lib -Wl,--enable-new-dtags /usr/local/lib/libSDL2.so -Wl,--end-group '-Wl,-rpath,$$ORIGIN/../../../../../../../monchickey/ffmpeg/lib' -Wl,-rpath-link,/monchickey/ffmpeg/lib
+ LINK_ARGS = -flto -Wl,--no-undefined -Wl,--as-needed -Wl,-O1 -Wl,--start-group /monchickey/ffmpeg/lib/libavformat.so /monchickey/ffmpeg/lib/libavcodec.so /monchickey/ffmpeg/lib/libavutil.so -Wl,-rpath,/usr/local/lib -Wl,--enable-new-dtags /usr/local/lib/libSDL2.so -Wl,--end-group -pthread '-Wl,-rpath,$$ORIGIN/../../../../../../../monchickey/ffmpeg/lib' -Wl,-rpath-link,/monchickey/ffmpeg/lib
 
 build app/app@@test_control_event_serialize@exe/tests_test_control_event_serialize.c.o: c_COMPILER ../app/tests/test_control_event_serialize.c
  DEPFILE = app/app@@test_control_event_serialize@exe/tests_test_control_event_serialize.c.o.d
- ARGS = -Iapp/app@@test_control_event_serialize@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@test_control_event_serialize@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/app@@test_control_event_serialize@exe/src_control_event.c.o: c_COMPILER ../app/src/control_event.c
  DEPFILE = app/app@@test_control_event_serialize@exe/src_control_event.c.o.d
- ARGS = -Iapp/app@@test_control_event_serialize@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@test_control_event_serialize@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/test_control_event_serialize: c_LINKER app/app@@test_control_event_serialize@exe/tests_test_control_event_serialize.c.o app/app@@test_control_event_serialize@exe/src_control_event.c.o | /monchickey/ffmpeg/lib/libavformat.so /monchickey/ffmpeg/lib/libavcodec.so /monchickey/ffmpeg/lib/libavutil.so /usr/local/lib/libSDL2.so
- LINK_ARGS = -flto -Wl,--no-undefined -Wl,--as-needed -Wl,-O1 -Wl,--start-group /monchickey/ffmpeg/lib/libavformat.so /monchickey/ffmpeg/lib/libavcodec.so /monchickey/ffmpeg/lib/libavutil.so -Wl,-rpath,/usr/local/lib -Wl,--enable-new-dtags /usr/local/lib/libSDL2.so -Wl,--end-group '-Wl,-rpath,$$ORIGIN/../../../../../../../monchickey/ffmpeg/lib' -Wl,-rpath-link,/monchickey/ffmpeg/lib
+ LINK_ARGS = -flto -Wl,--no-undefined -Wl,--as-needed -Wl,-O1 -Wl,--start-group /monchickey/ffmpeg/lib/libavformat.so /monchickey/ffmpeg/lib/libavcodec.so /monchickey/ffmpeg/lib/libavutil.so -Wl,-rpath,/usr/local/lib -Wl,--enable-new-dtags /usr/local/lib/libSDL2.so -Wl,--end-group -pthread '-Wl,-rpath,$$ORIGIN/../../../../../../../monchickey/ffmpeg/lib' -Wl,-rpath-link,/monchickey/ffmpeg/lib
 
 build app/app@@test_strutil@exe/tests_test_strutil.c.o: c_COMPILER ../app/tests/test_strutil.c
  DEPFILE = app/app@@test_strutil@exe/tests_test_strutil.c.o.d
- ARGS = -Iapp/app@@test_strutil@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@test_strutil@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/app@@test_strutil@exe/src_str_util.c.o: c_COMPILER ../app/src/str_util.c
  DEPFILE = app/app@@test_strutil@exe/src_str_util.c.o.d
- ARGS = -Iapp/app@@test_strutil@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D_REENTRANT
+ ARGS = -Iapp/app@@test_strutil@exe -Iapp -I../app -I../app/src -I/monchickey/ffmpeg/include -I/usr/local/include/SDL2 -flto -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -pthread -D_REENTRANT
 
 build app/test_strutil: c_LINKER app/app@@test_strutil@exe/tests_test_strutil.c.o app/app@@test_strutil@exe/src_str_util.c.o | /monchickey/ffmpeg/lib/libavformat.so /monchickey/ffmpeg/lib/libavcodec.so /monchickey/ffmpeg/lib/libavutil.so /usr/local/lib/libSDL2.so
- LINK_ARGS = -flto -Wl,--no-undefined -Wl,--as-needed -Wl,-O1 -Wl,--start-group /monchickey/ffmpeg/lib/libavformat.so /monchickey/ffmpeg/lib/libavcodec.so /monchickey/ffmpeg/lib/libavutil.so -Wl,-rpath,/usr/local/lib -Wl,--enable-new-dtags /usr/local/lib/libSDL2.so -Wl,--end-group '-Wl,-rpath,$$ORIGIN/../../../../../../../monchickey/ffmpeg/lib' -Wl,-rpath-link,/monchickey/ffmpeg/lib
+ LINK_ARGS = -flto -Wl,--no-undefined -Wl,--as-needed -Wl,-O1 -Wl,--start-group /monchickey/ffmpeg/lib/libavformat.so /monchickey/ffmpeg/lib/libavcodec.so /monchickey/ffmpeg/lib/libavutil.so -Wl,-rpath,/usr/local/lib -Wl,--enable-new-dtags /usr/local/lib/libSDL2.so -Wl,--end-group -pthread '-Wl,-rpath,$$ORIGIN/../../../../../../../monchickey/ffmpeg/lib' -Wl,-rpath-link,/monchickey/ffmpeg/lib
 
 build server/scrcpy-server.jar: CUSTOM_COMMAND ../server/. | /home/neil/git/scrcpy1/scrcpt_java/server/./scripts/build-wrapper.sh PHONY
- COMMAND = /bin/bash /home/neil/git/scrcpy1/scrcpt_java/server/./scripts/build-wrapper.sh ../server/. server/scrcpy-server.jar release
+ COMMAND = /home/neil/git/scrcpy1/scrcpt_java/server/./scripts/build-wrapper.sh ../server/. server/scrcpy-server.jar release
  description = Generating$ scrcpy-server$ with$ a$ custom$ command.
 
 build meson-run: CUSTOM_COMMAND 

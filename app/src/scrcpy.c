@@ -138,6 +138,7 @@ static void wait_show_touches(process_t process) {
 }
 
 SDL_bool scrcpy(const struct scrcpy_options *options) {
+	//模拟用户传入的数据 scrcpy_options  options
     if (!server_start(&server, options->serial, options->port,
                       options->max_size, options->bit_rate, options->crop)) {
         return SDL_FALSE;

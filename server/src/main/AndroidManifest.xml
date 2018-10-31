@@ -1,7 +1,9 @@
 <!-- not a real Android application, it is run by app_process manually -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
-          package="com.genymobile.scrcpy">
-
-      <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>  
-    <uses-permission android:name="android.permission.INTERNET"/>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.genymobile.scrcpy">
+	<uses-permission
+		android:name="android.permission.CHANGE_NETWORK_STATE" />
+	<uses-permission
+		android:name="android.permission.INTERNET" />
 </manifest>

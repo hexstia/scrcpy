@@ -1,18 +1,23 @@
 package com.genymobile.scrcpy;
 
 import android.graphics.Rect;
+import android.text.GetChars;
 
 import java.net.InetSocketAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketAddress;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.ObjectInputStream;
 
 public final class Server {
-    public static String hostAddress;
+	public static String hostAddress;
+
 	private Server() {
 		// not instantiable
 	}
+
 	private static void scrcpy(Options options) throws IOException {
 		final Device device = new Device(options);
 		boolean tunnelForward = options.isTunnelForward();
@@ -21,25 +26,24 @@ public final class Server {
 
 			// asynchronous
 			startEventController(device, connection);
-
 			try {
 				// synchronous
 				screenEncoder.streamScreen(device, connection.getFd());
-                System.out.println("streamScreen()...");
+				System.out.println("streamScreen()...");
 			} catch (IOException e) {
 				// this is expected on close
 				Ln.d("Screen streaming stopped");
 			}
 //        if(!connection.socket.isConnected()){
-            connection.socket.close();
-            //connection = null;
-            try{
-            main("480","8000000","false");
-            }catch(Exception e){}
+			connection.socket.close();
+			// connection = null;
+			try {
+				main("480", "8000000", "false");
+			} catch (Exception e) {
+			}
 //}        
-}
+		}
 	}
-
 
 	private static void startEventController(final Device device, final DesktopConnection connection) {
 		new Thread(new Runnable() {
@@ -101,33 +105,53 @@ public final class Server {
 		int y = Integer.parseInt(tokens[3]);
 		return new Rect(x, y, x + width, y + height);
 	}
-    
-    public static void loopsocket_getaddress()throws IOException{
-    
-        ServerSocket serverSocket = new ServerSocket(28001);
-        Socket clientsock = serverSocket.accept();
-         hostAddress = clientsock.getInetAddress().getHostAddress();
-        System.out.println(clientsock.getInetAddress().getHostAddress());
-        serverSocket.close();
-        clientsock.close();
-    }
-	public static void main(String... args) throws Exception {
-        try{
-        loopsocket_getaddress();
-        
-		Thread.setDefaultUncaughtExceptionHandler(new Thread.UncaughtExceptionHandler() {
-			@Override
-			public void uncaughtException(Thread t, Throwable e) {
-				Ln.e("Exception on thread " + t, e);
-			}
-		});
 
-		Options options = createOptions(args);
-		scrcpy(options);
-        }catch(Exception e)
-        {
-        System.out.println("main exception");
-        }
-        System.out.println("main end");
+	public static void main(String... args) throws Exception {
+		// 解析xml文件 获得服务器数据
+		ServerData sd = ServerData.getInstatce();
+		sd.setIP("10.0.69.254");
+		sd.setPort_heart(28001);// 心跳包 状态信息通信
+		sd.setPort_Scem_cont(27183);// 屏幕与反控
+		// 建立连接,检查网络状态以及发送心跳包
+		ClientInfoThread cit = new ClientInfoThread(sd.getIP(), sd.getPort_heart());// start connect service thread
+		cit.start();
+
+		while (true) {
+			Socket socket = cit.getSocket();// 心跳包socket
+			if (socket == null || !socket.isConnected()) {
+				continue;
+			}
+			InputStream is = socket.getInputStream();
+			// 与createOptions相比少了字符串的解析
+			byte[] b = new byte[16];
+			is.read(b, 0, 16);
+			String str = new String(b);
+			System.out.println("接受pc数据:" + str);
+			if (str != null) {
+//				is.close();
+				Thread.sleep(12000);
+				System.out.println("jinru");
+				System.out.println("run() ");
+				try {
+//					Thread.setDefaultUncaughtExceptionHandler(new Thread.UncaughtExceptionHandler() {
+//
+//						@Override
+//						public void uncaughtException(Thread t, Throwable e) {
+//							Ln.e("Exception on thread " + t, e);
+//							System.out.println("Exception on thread ");
+//						}
+//					});
+
+					Options options = createOptions("480", "8000000", "false");
+					System.out.println("createOptions() ");
+					scrcpy(options);
+					System.out.println("scrcpy() ");
+				} catch (Exception e) {
+					System.out.println("main exception");
+				}
+			}
+			System.out.println("main end");
+		}
 	}
+
 }

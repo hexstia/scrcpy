@@ -1,0 +1,10 @@
+Build started at 2018-10-30T18:25:00.611682
+Main binary: /usr/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.48.1
+Source dir: /home/neil/git/scrcpy1/scrcpt_java/app
+Build dir: /home/neil/git/scrcpy1/scrcpt_java/app/x
+Build type: native build
+
+ERROR: First statement must be a call to project

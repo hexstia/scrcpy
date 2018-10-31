@@ -20,11 +20,8 @@ public final class DesktopConnection implements Closeable {
 
 	private static final int DEVICE_NAME_FIELD_LENGTH = 64;
 
-	private static  String HOST_NAME = "10.0.68.254";
-
-	private static final int PORT = 27183;
-
 	public final Socket socket;
+
 	private final InputStream inputStream;
 
 	private final ControlEventReader reader = new ControlEventReader();
@@ -91,17 +88,18 @@ public final class DesktopConnection implements Closeable {
 	public static DesktopConnection open(Device device, boolean tunnelForward) throws IOException {
 		System.out.println("come in open()....");
 		Socket socket = null;
-		if (tunnelForward) {
-			// if(false){
-			System.out.println("is tunnelForward :true status");
-			socket = listenAndAccept(PORT);
-			socket.getOutputStream().write(0);
-		} else {
-            HOST_NAME = Server.hostAddress;
-		    System.out.println("ubuntu ip :"+HOST_NAME);
-                socket = connect(HOST_NAME, PORT);
-			System.out.println("link socket  status : " + socket);
-		}
+//		if (tunnelForward) {
+//			// if(false){
+//			System.out.println("is tunnelForward :true status");
+//			socket = listenAndAccept(PORT);
+//			socket.getOutputStream().write(0);
+//		} else {
+		ServerData instatce = ServerData.getInstatce();
+
+		System.out.println("ubuntu ip :" + instatce.getIP());
+		socket = connect(instatce.getIP(), instatce.getPort_Scem_cont());
+		System.out.println("link socket  status : " + socket);
+//		}
 		DesktopConnection connection = new DesktopConnection(socket);
 		Size videoSize = device.getScreenInfo().getVideoSize();
 		connection.send(Device.getDeviceName(), videoSize.getWidth(), videoSize.getHeight());
@@ -112,13 +110,12 @@ public final class DesktopConnection implements Closeable {
 		socket.shutdownInput();
 		socket.shutdownOutput();
 		socket.close();
-        System.out.println("close()()()");
-        try{
-            Server.main("480","8000000","false");
-            System.out.println("main()");
-        }catch(Exception e)
-        {
-        }
+		System.out.println("close()()()");
+		try {
+			Server.main("480", "8000000", "false");
+			System.out.println("main()");
+		} catch (Exception e) {
+		}
 	}
 
 	@SuppressWarnings("checkstyle:MagicNumber")

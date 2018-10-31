@@ -1,34 +1,34 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:2:1-7:12
-INJECTED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:2:1-7:12
-INJECTED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:2:1-7:12
-INJECTED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:2:1-7:12
-INJECTED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:2:1-7:12
-INJECTED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:2:1-7:12
-INJECTED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:2:1-7:12
+ADDED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:2:1-9:12
 	package
-		ADDED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:3:11-42
+		ADDED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:4:2-33
 		INJECTED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml
 		INJECTED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml
-		ADDED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:2:1-7:12
+		ADDED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:2:1-9:12
 		INJECTED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml
-		ADDED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:2:1-7:12
+		ADDED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:2:1-9:12
 		INJECTED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:3:2-60
 uses-permission#android.permission.CHANGE_NETWORK_STATE
-ADDED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:5:7-80
+ADDED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:5:2-6:60
 	android:name
-		ADDED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:5:24-78
+		ADDED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:6:3-57
 uses-permission#android.permission.INTERNET
-ADDED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:6:5-66
+ADDED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:7:2-8:48
 	android:name
-		ADDED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml:8:3-45
 uses-sdk
 INJECTED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/neil/git/scrcpy1/scrcpt_java/server/src/main/AndroidManifest.xml

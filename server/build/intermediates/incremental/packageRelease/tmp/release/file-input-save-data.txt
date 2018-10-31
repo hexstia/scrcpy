@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Oct 30 16:41:27 CST 2018
+0.baseType=DIRECTORY
+0.base=/home/neil/git/scrcpy1/scrcpt_java/server/build/intermediates/transforms/dexMerger/release/0
+0.path=classes.dex
+0.set=DEX
+count=1

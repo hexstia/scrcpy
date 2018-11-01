@@ -11,12 +11,14 @@ import java.net.SocketTimeoutException;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
 import android.net.ConnectivityManager;
 import android.net.Network;
 import android.net.NetworkInfo;
 import android.net.NetworkInfo.DetailedState;
 import android.net.TrafficStats;
 import android.renderscript.ScriptGroup.Input;
+import android.util.Log;
 
 public class ClientInfoThread extends Thread {
 	private Socket socket;
@@ -29,6 +31,23 @@ public class ClientInfoThread extends Thread {
 	public ClientInfoThread(String IP, int PORT) {
 		this.IP = IP;
 		this.PORT = PORT;
+	}
+
+	public void getserver(Context context) {
+		new Thread(new Runnable() {
+			@Override
+			public void run() {
+				while (true) {
+					
+					try {
+						Thread.sleep(1000);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
+			}
+		}).start();
 	}
 
 	public String getNetSpeed(Context context) {// 获取网速 分析分辨率

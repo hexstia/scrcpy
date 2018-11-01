@@ -276,6 +276,7 @@ static SDL_bool parse_args(struct args *args, int argc, char *argv[]) {
 }
 #define MAXLINE 1024
 #define PORT 28001
+int firstflag = 1;
 socket_t heartServersocket(char* ip) {
 	socket_t sockfd = net_listen(1, PORT, 1);
 	socket_t clientsocket = net_accept(sockfd); //阻塞
@@ -287,12 +288,14 @@ socket_t heartServersocket(char* ip) {
 		if (*p == 0xff) {
 			printf("heart alreay success!\n");
 		}
-		sleep(1);
-		char* str = (char*) malloc(16);
-		strcpy(str, "192.168.1.1");
-		net_send(clientsocket, str, 16);
+		if (firstflag) {//server send data message
+			sleep(1);
+			char* str = (char*) malloc(16);
+			strcpy(str, "192.168.1.1");
+			net_send(clientsocket, str, 16);
+			firstflag = 0;
+		}
 	}
-
 	return sockfd;
 }
 void * run(void *arg) {
@@ -309,52 +312,53 @@ int main(int argc, char *argv[]) {
 	if (argv[3] == NULL) {
 		return -1;
 	} else {
-	pthread_t thread;
-	 pthread_create(&thread, NULL,run,NULL);
-	// memset(argv[3],0,strlen(argv[3]));
-}
-struct args args = { .serial = NULL, .crop = NULL, .help = SDL_FALSE, .version =
-		SDL_FALSE, .show_touches = SDL_FALSE, .port =
-DEFAULT_LOCAL_PORT, .max_size = DEFAULT_MAX_SIZE, .bit_rate =
-DEFAULT_BIT_RATE, };
-if (!parse_args(&args, argc, argv)) {
-	return 1;
-}
+		pthread_t thread;
+		pthread_create(&thread, NULL, run, NULL);
+		// memset(argv[3],0,strlen(argv[3]));
+	}
+	struct args args = { .serial = NULL, .crop = NULL, .help = SDL_FALSE,
+			.version = SDL_FALSE, .show_touches = SDL_FALSE, .port =
+			DEFAULT_LOCAL_PORT, .max_size = DEFAULT_MAX_SIZE, .bit_rate =
+			DEFAULT_BIT_RATE, };
+	if (!parse_args(&args, argc, argv)) {
+		return 1;
+	}
 
-if (args.help) {
-	usage(argv[0]);
-	return 0;
-}
+	if (args.help) {
+		usage(argv[0]);
+		return 0;
+	}
 
-if (args.version) {
-	print_version();
-	return 0;
-}
+	if (args.version) {
+		print_version();
+		return 0;
+	}
 
 #if LIBAVCODEC_VERSION_INT < AV_VERSION_INT(58, 9, 100)
-av_register_all();
+	av_register_all();
 #endif
 
-if (avformat_network_init()) {
-	return 1;
-}
+	if (avformat_network_init()) {
+		return 1;
+	}
 
 #ifdef BUILD_DEBUG
-SDL_LogSetAllPriority(SDL_LOG_PRIORITY_DEBUG);
+	SDL_LogSetAllPriority(SDL_LOG_PRIORITY_DEBUG);
 #endif
 
-struct scrcpy_options options = { .serial = args.serial, .crop = args.crop,
-		.port = args.port, .max_size = args.max_size, .bit_rate = args.bit_rate,
-		.show_touches = args.show_touches, .fullscreen = args.fullscreen, };
-int res = scrcpy(&options) ? 0 : 1;
+	struct scrcpy_options options = { .serial = args.serial, .crop = args.crop,
+			.port = args.port, .max_size = args.max_size, .bit_rate =
+					args.bit_rate, .show_touches = args.show_touches,
+			.fullscreen = args.fullscreen, };
+	int res = scrcpy(&options) ? 0 : 1;
 
-avformat_network_deinit(); // ignore failure
+	avformat_network_deinit(); // ignore failure
 
 #if defined (__WINDOWS__) && ! defined (WINDOWS_NOCONSOLE)
-if (res != 0) {
-	fprintf(stderr, "Press any key to continue...\n");
-	getchar();
-}
+	if (res != 0) {
+		fprintf(stderr, "Press any key to continue...\n");
+		getchar();
+	}
 #endif
-return res;
+	return res;
 }

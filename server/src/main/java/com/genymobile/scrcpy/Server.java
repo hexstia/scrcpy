@@ -7,12 +7,14 @@ import java.net.InetSocketAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketAddress;
+import java.util.ArrayList;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.ObjectInputStream;
 
 public final class Server {
 	public static String hostAddress;
+	private static ClientInfoThread cit;
 
 	private Server() {
 		// not instantiable
@@ -108,31 +110,44 @@ public final class Server {
 
 	public static void main(String... args) throws Exception {
 		// 解析xml文件 获得服务器数据
+//		ArrayList<Type> parse = parsexml.parse(null);；//解析函数
 		ServerData sd = ServerData.getInstatce();
 		sd.setIP("10.0.69.254");
 		sd.setPort_heart(28001);// 心跳包 状态信息通信
 		sd.setPort_Scem_cont(27183);// 屏幕与反控
-		// 建立连接,检查网络状态以及发送心跳包
-		ClientInfoThread cit = new ClientInfoThread(sd.getIP(), sd.getPort_heart());// start connect service thread
+		cit = new ClientInfoThread(sd.getIP(), sd.getPort_heart());
 		cit.start();
 
-		while (true) {
-			Socket socket = cit.getSocket();// 心跳包socket
-			if (socket == null || !socket.isConnected()) {
-				continue;
+		Thread ts = new Thread(new Runnable() {
+
+			@Override
+			public void run() {
+				while (true) {
+					Socket socket = cit.getSocket();// 心跳包socket
+					if (socket == null || !socket.isConnected()) {
+						continue;
+					}
+					InputStream is;
+					try {
+						is = socket.getInputStream();
+						byte[] b = new byte[16];
+						is.read(b, 0, 16);
+						String str = new String(b);
+						System.out.println("接受pc数据:" + str);
+						break;
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+
+				}
 			}
-			InputStream is = socket.getInputStream();
-			// 与createOptions相比少了字符串的解析
-			byte[] b = new byte[16];
-			is.read(b, 0, 16);
-			String str = new String(b);
-			System.out.println("接受pc数据:" + str);
-			if (str != null) {
-//				is.close();
-				Thread.sleep(12000);
-				System.out.println("jinru");
-				System.out.println("run() ");
-				try {
+		});
+		ts.start();
+		ts.join();
+		Thread.sleep(1000);
+		System.out.println("coming core code");
+		try {
 //					Thread.setDefaultUncaughtExceptionHandler(new Thread.UncaughtExceptionHandler() {
 //
 //						@Override
@@ -142,16 +157,14 @@ public final class Server {
 //						}
 //					});
 
-					Options options = createOptions("480", "8000000", "false");
-					System.out.println("createOptions() ");
-					scrcpy(options);
-					System.out.println("scrcpy() ");
-				} catch (Exception e) {
-					System.out.println("main exception");
-				}
-			}
-			System.out.println("main end");
+			Options options = createOptions("480", "8000000", "false");
+			System.out.println("createOptions() ");
+			scrcpy(options);
+			System.out.println("scrcpy() ");
+		} catch (Exception e) {
+			System.out.println("main exception");
 		}
+		System.out.println("main end");
 	}
 
 }

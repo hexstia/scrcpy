@@ -1,4 +1,4 @@
-#Tue Oct 30 18:51:34 CST 2018
+#Wed Oct 31 10:27:12 CST 2018
 base.0=/home/neil/git/scrcpy1/scrcpt_java/server/build/intermediates/transforms/dexMerger/release/0
 path.0=classes.dex
 renamed.0=classes.dex
